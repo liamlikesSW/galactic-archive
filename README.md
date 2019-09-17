@@ -1,2 +1,2 @@
-# galactic-archive
+# galactic-archive-master
 A collection of all Star Wars worlds (planets and moons) from all canon media. It's a big list...
