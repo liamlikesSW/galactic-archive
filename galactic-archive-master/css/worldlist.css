@@ -1,0 +1,13 @@
+.list-worlds {
+    align-content: center;
+    font-family: Brandon Grotesque, bold;
+}
+
+.list-worlds h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.list-worlds h3 {
+    font-size: 10px;
+}
