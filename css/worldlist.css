@@ -1,4 +1,45 @@
 .list-worlds {
-    font-family: Brandon Grotesque;
+    display: block;
+    font-family: Brandon Grotesque, bold;
+    color: #222A36
 }
 
+.list-worlds h1 {
+    font-size: 45px;
+    margin: 3px;
+    text-align: center;
+}
+
+.list-worlds h3 {
+    font-size: 17px;
+    margin: 0px;
+    text-align: center;
+}
+
+.world-paragraph {
+    display: flex;
+    font-family: Brandon Grotesque;
+    font-weight: 360;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.world-paragraph p {
+    text-align: justify;
+}
+
+#first-paragraph {
+    width: 120px;
+    margin-right: 10px;
+}
+
+#second-paragraph {
+    width: 120px;
+    margin-left: 10px;
+}
+
+.list-worlds div {
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
