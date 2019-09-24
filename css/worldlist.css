@@ -1,3 +1,5 @@
+/* List of worlds */
+
 .list-worlds {
     display: block;
     color: #222A36
@@ -20,11 +22,13 @@
 
 .list-worlds h3 {
     font-family: brandon-grotesque, sans-serif;
-    font-weight: 700;
+    font-weight: 770;
     font-size: 17px;
     margin: 0px;
     text-align: center;
 }
+
+/* Paragraphs within List of Worlds */
 
 .world-paragraph {
     display: flex;
@@ -58,35 +62,77 @@
    line-height: 1;
 }
 
-.img {
+/* Lit Logo */
+
+#lit-logo p{
+    font-family: charcuterie-ornaments, sans-serif;
+    font-weight: 370;
+    font-size: 23px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+/* Alderaan image */
+
+.img-alderaan {
   position: relative;
   text-align: center;
 }
 
-.img h1 {
+.img-alderaan h1 {
   position: absolute;
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.img h3 {
+.img-alderaan h3 {
   font-family: brandon-grotesque, sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   position: absolute;
   top: 66%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.img img {
+.img-alderaan img {
     border-radius: 7px;
     width: 58%;
 }
 
+/* Anaxes image */
+
+.img-anaxes {
+    position: relative;
+    text-align: center;
+  }
+
+.img-anaxes h1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .img-anaxes h3 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 800;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .img-anaxes img {
+      border-radius: 7px;
+      width: 58%;
+  }
+
+/* Charcuterie Ornament manipulation */
+
 #ornament {
     font-family: charcuterie-ornaments, sans-serif;
-    font-weight: 300;
+    font-weight: 370;
     font-size: 80%;
 }
 
