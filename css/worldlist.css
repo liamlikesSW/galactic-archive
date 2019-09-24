@@ -1,16 +1,26 @@
 .list-worlds {
     display: block;
-    font-family: Brandon Grotesque, bold;
     color: #222A36
 }
 
+.list-worlds div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .list-worlds h1 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
     font-size: 45px;
     margin: 3px;
     text-align: center;
 }
 
 .list-worlds h3 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 900;
     font-size: 17px;
     margin: 0px;
     text-align: center;
@@ -18,10 +28,14 @@
 
 .world-paragraph {
     display: flex;
-    font-family: Brandon Grotesque;
-    font-weight: 360;
+    justify-content: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: 359;
     font-size: 15px;
     margin: 0px;
+    margin-top: 3.5px;
 }
 
 .world-paragraph p {
@@ -30,16 +44,49 @@
 
 #first-paragraph {
     width: 120px;
+    margin: 0px;
     margin-right: 10px;
 }
 
 #second-paragraph {
+    margin: 0px;
     width: 120px;
     margin-left: 10px;
 }
 
-.list-worlds div {
-    justify-content: center;
-    align-items: center;
-    margin: 70px;
+#source {
+   line-height: 1;
 }
+
+.img {
+  position: relative;
+  text-align: center;
+}
+
+.img h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 900;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+#ornament {
+    font-family: charcuterie-ornaments, sans-serif;
+    font-weight: 300;
+    font-size: 80%;
+}
+
