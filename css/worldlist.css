@@ -59,6 +59,12 @@
     margin-right: 10px;
 }
 
+#first-paragraph-3 {
+    width: 130px;
+    margin: 0px;
+    margin-right: 10px;
+}
+
 #second-paragraph {
     margin: 0px;
     width: 120px;
@@ -68,6 +74,12 @@
 #second-paragraph-2 {
     margin: 0px;
     width: 140px;
+    margin-left: 10px;
+}
+
+#second-paragraph-3 {
+    width: 130px;
+    margin: 0px;
     margin-left: 10px;
 }
 
