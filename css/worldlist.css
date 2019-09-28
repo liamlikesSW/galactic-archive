@@ -1,3 +1,8 @@
+
+body {
+  margin: 0px;
+}
+
 /* List of worlds */
 
 .list-worlds {
@@ -10,6 +15,14 @@
     align-items: center;
     margin-top: 90px;
     margin-bottom: 90px;
+}
+
+#list-worlds-lit {
+  margin-bottom: 45px;
+}
+
+#list-worlds-last {
+  margin-bottom: 170px;
 }
 
 .list-worlds h1 {
@@ -77,6 +90,21 @@
     margin-left: 10px;
 }
 
+#only-paragraph {
+  width: 140px;
+  margin: 0px;
+}
+
+#only-paragraph-2 {
+  width: 120px;
+  margin: 0px;
+}
+
+#only-paragraph-3 {
+  width: 150px;
+  margin: 0px;
+}
+
 #second-paragraph-3 {
     width: 130px;
     margin: 0px;
@@ -84,7 +112,14 @@
 }
 
 #source {
-   line-height: 1;
+   line-height: 1.5;
+}
+
+#source p {
+  margin-top: 8px;
+  font-size: 10px;
+  font-family: futura-pt, sans-serif;
+  font-weight: 150;
 }
 
 /* Lit Logo */
@@ -210,6 +245,36 @@
       width: 58%;
   }
 
+/* Skako Minor image */
+
+.img-skako {
+  position: relative;
+  text-align: center;
+}
+
+.img-skako h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FCFCDC;
+}
+
+.img-skako h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FCFCDC;
+}
+
+.img-skako img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Charcuterie Ornament manipulation */
 
 #ornament {
@@ -218,7 +283,7 @@
     font-size: 80%;
 }
 
-/* Moon Logo */
+/* Moon Logos */
 
 #moon img{
     display: block;
@@ -229,3 +294,20 @@
     margin-top: 8px;
 }
 
+#moon-lit img {
+   display: block;
+    width: 62px;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+/* Footer */
+
+footer {
+  background-image: url("../images/misc/footer.png");
+  margin: 0px;
+  height: 181px;
+  background-repeat: no-repeat;
+}
