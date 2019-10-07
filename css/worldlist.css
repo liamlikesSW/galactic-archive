@@ -23,6 +23,53 @@ nav img {
   width: 12%;
 }
 
+/* Region Title */
+
+.region-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.region-title img{
+  width: 30%;
+}
+
+/* Region Paragraphs */
+
+.flex-introparas {
+  font-family: futura-pt, sans-serif;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  margin-left: 530px;
+  margin-right: 515px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one {
+  width: 180%;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one p {
+  text-align: justify;
+}
+
+#intropara-two {
+  width: 180%;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-two p {
+  text-align: justify;
+}
+
 /* List of worlds */
 
 .list-worlds {
@@ -31,7 +78,7 @@ nav img {
     margin-top: 200px;
 }
 
-.list-worlds div {
+.list-worlds > div {
     justify-content: center;
     align-items: center;
     margin-top: 90px;
@@ -152,6 +199,66 @@ nav img {
     margin-top: 3px;
     margin-bottom: 0px;
     text-align: center;
+}
+
+#lit-logo-morespace img {
+  display: block;
+  width: 32px;
+  height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#lit-logo2 img {    /* for lit-logo2.png */
+  display: block;
+  width: 23px;
+  height: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+}
+
+#lit-logo3 img {   /* for lit-logo3.png */
+  display: block;
+  width: 32px;
+  height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+}
+
+
+
+/* Lit Flex */
+
+.lit-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px;
+}
+
+#lit-flex-spacarond > #lit-logo img {
+  margin-top: 3px;
+}
+
+#lit-flex-spacarond-underimg > img {
+  margin-top: 0px;
+}
+
+#lit-flex-spacarond {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  justify-content: space-around;
+}
+
+#lit-flex-spacarond-underimg {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  justify-content: space-around;
 }
 
 /* Alderaan image */
@@ -310,6 +417,7 @@ nav img {
     width: 58%;
 }
 
+
 /* Charcuterie Ornament manipulation */
 
 #ornament {
@@ -322,21 +430,73 @@ nav img {
 
 #moon img{
     display: block;
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 23px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 #moon-lit img {
     display: block;
-    width: 62px;
-    height: 33px;
+    width: 32px;
+    height: 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8px;
+    margin-top: 10px;
 }
+
+/* Clone Wars Battle Logo */
+
+#cw-underimg img{
+  display: block;
+  width: 18px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+#cw-flex-underimg img{
+  display: block;
+  width: 18px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+/* Fantasy Flight Logo */
+
+#ffg-logo img{
+  display: block;
+  width: 23px;
+  height: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+}
+
+#ffg-logo-underimg img{
+  display: block;
+  width: 23px;
+  height: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.collapsible {
+  border: none;
+}
+
+#ffg-explanation {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
 
 /* Comic Images */
 
@@ -372,7 +532,7 @@ nav img {
 }
 
 #continue-to img {
-  border-radius: 5px;
+  border-radius: 8px;
   width: 24%;
 }
 
@@ -391,6 +551,8 @@ nav img {
 
 footer {
   /*background-image: url("../images/misc/footer.png");*/
+  display: flex;
+  justify-content: center;
   margin: 0px;
   height: 68px;
   background-repeat: no-repeat;
@@ -398,6 +560,7 @@ footer {
 
 footer img {
   width: 110%;
+  height: 180%;
 }
 
 
@@ -417,6 +580,18 @@ footer img {
     margin-bottom: 10px;
     margin-right: 30px;
     width: 40%;
+  }
+
+/* Region Title */
+
+  .region-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  
+  .region-title img{
+    width: 60%;
   }
 
 /* Alderaan image */
@@ -587,6 +762,7 @@ footer img {
 
 footer img {
   width: 210%;
+  height: 130%;
 }
 
 }
@@ -601,6 +777,18 @@ footer img {
     margin-bottom: 10px;
     margin-right: 30px;
     width: 30%;
+  }
+
+  /* Region Title */
+
+  .region-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  
+  .region-title img{
+    width: 70%;
   }
 
   /* Alderaan image */
@@ -770,6 +958,7 @@ footer img {
 
 footer img {
   width: 180%;
+  height: 135%;
 }
 
 }
@@ -785,6 +974,18 @@ footer img {
     margin-right: 30px;
     width: 25%;
   }
+
+/* Region Title */
+
+.region-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.region-title img{
+  width: 60%;
+}
 
   /* Alderaan image */
 
@@ -951,6 +1152,7 @@ footer img {
 
 footer img {
   width: 170%;
+  height: 150%;
 }
 
 }
@@ -1130,6 +1332,7 @@ footer img {
 
 footer img {
   width: 150%;
+  height: 130%;
 }
 
 }
