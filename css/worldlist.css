@@ -28,11 +28,21 @@ nav img {
 .region-title {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 160px;
 }
 
 .region-title img{
   width: 30%;
+}
+
+/* Breaker */
+
+.breaker > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 17px;
+  width: 4%;
 }
 
 /* Region Paragraphs */
@@ -57,17 +67,19 @@ nav img {
 
 #intropara-one p {
   text-align: justify;
+  margin-top: 0px;
 }
 
 #intropara-two {
   width: 180%;
-  margin-left: 40px;
+  margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 #intropara-two p {
   text-align: justify;
+  margin-top: 0px;
 }
 
 /* List of worlds */
@@ -75,7 +87,7 @@ nav img {
 .list-worlds {
     display: block;
     color: #222A36;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 .list-worlds > div {
@@ -567,7 +579,20 @@ footer img {
 
 
 
+
+
+
+
+
+
 /* ------------------- Media Queries --------------------- */
+
+
+
+
+
+
+
 
 
 
@@ -593,6 +618,41 @@ footer img {
   .region-title img{
     width: 60%;
   }
+
+/* Region Paragraphs */
+
+.flex-introparas {
+  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one {
+  width: 180%;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one p {
+  text-align: justify;
+  font-size: 85%;
+}
+
+#intropara-two {
+  width: 180%;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-two p {
+  text-align: justify;
+  font-size: 85%;
+}
 
 /* Alderaan image */
 
@@ -791,6 +851,41 @@ footer img {
     width: 70%;
   }
 
+  /* Region Paragraphs */
+
+.flex-introparas {
+  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one {
+  width: 180%;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one p {
+  text-align: justify;
+  font-size: 90%;
+}
+
+#intropara-two {
+  width: 180%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-two p {
+  text-align: justify;
+  font-size: 90%;
+}
+
   /* Alderaan image */
 
 .img-alderaan {
@@ -987,6 +1082,42 @@ footer img {
   width: 60%;
 }
 
+  /* Region Paragraphs */
+
+  .flex-introparas {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #intropara-one {
+    width: 180%;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #intropara-one p {
+    text-align: justify;
+    font-size: 100%;
+  }
+  
+  #intropara-two {
+    width: 180%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #intropara-two p {
+    text-align: justify;
+    font-size: 100%;
+  }
+  
+
   /* Alderaan image */
 
 .img-alderaan {
@@ -1168,6 +1299,42 @@ footer img {
     margin-right: 30px;
     width: 18%;
   } 
+
+    /* Region Paragraphs */
+
+    .flex-introparas {
+      display: flex;
+      justify-content: center;
+      margin-left: 250px;
+      margin-right: 250px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    #intropara-one {
+      width: 180%;
+      margin-right: 0px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    #intropara-one p {
+      text-align: justify;
+      font-size: 100%;
+    }
+    
+    #intropara-two {
+      width: 180%;
+      margin-left: 30px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    #intropara-two p {
+      text-align: justify;
+      font-size: 100%;
+    }
+      
   
   /* Alderaan image */
 
