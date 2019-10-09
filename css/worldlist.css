@@ -82,12 +82,91 @@ nav img {
   margin-top: 0px;
 }
 
+/* KEY */
+
+.full-key {
+  margin-top: 38px;
+  margin-bottom: 180px;
+}
+
+.full-key p {
+  margin-bottom: 0px;
+}
+
+.full-key > h1 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.flex-key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  margin-left: 460px;
+  margin-right: 460px;
+}
+
+.first-group {
+  display: flex;
+}
+
+.second-group {
+  display: flex;
+}
+
+.third-group {
+  display: flex;
+}
+ 
+#key {
+  margin: 15px;
+}
+
+#key-note {
+  margin: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 0px;
+}
+
+#key-note > p {
+  margin-top: 2px;
+}
+
+.third-group {
+  display: flex;
+  justify-content: center;
+}
+
+#key-note > h3 {
+  font-family: brandon-grotesque, sans-serif;
+  margin-bottom: 0px;
+}
+
+/* Img Before List */
+
+.b4list {
+  display: flex;
+  justify-content: center;
+}
+
+.b4list > img {
+  width: 5%;
+  height: 5%;
+}
+
 /* List of worlds */
 
 .list-worlds {
     display: block;
     color: #222A36;
-    margin-top: 140px;
+    margin-top: 180px;
 }
 
 .list-worlds > div {
@@ -224,8 +303,8 @@ nav img {
 
 #lit-logo2 img {    /* for lit-logo2.png */
   display: block;
-  width: 23px;
-  height: 19px;
+  width: 32px;
+  height: 23px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1px;
@@ -239,8 +318,6 @@ nav img {
   margin-right: auto;
   margin-top: 1px;
 }
-
-
 
 /* Lit Flex */
 
@@ -449,10 +526,19 @@ nav img {
     margin-top: 16px;
 }
 
+#moon2 img{
+  display: block;
+  width: 20px;
+  height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
 #moon-lit img {
     display: block;
-    width: 32px;
-    height: 30px;
+    width: 27px;
+    height: 26px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -462,14 +548,56 @@ nav img {
 
 #cw-underimg img{
   display: block;
-  width: 18px;
-  height: 22px;
+  width: 20px;
+  height: 23px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;
 }
 
 #cw-flex-underimg img{
+  display: block;
+  width: 18px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+/* Galactic Civil War Battle Logo */
+
+#gcw-underimg img{
+  display: block;
+  width: 22px;
+  height: 22px;
+  padding-left: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+#gcw-flex-underimg img{
+  display: block;
+  width: 18px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+/* First Order v Resistance Battle Logo */
+
+#fovr-underimg img{
+  display: block;
+  width: 21px;
+  height: 22px;
+  padding-left: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+#fovr-flex-underimg img{
   display: block;
   width: 18px;
   height: 22px;
@@ -544,7 +672,7 @@ nav img {
 }
 
 #continue-to img {
-  border-radius: 8px;
+  border-radius: 7px;
   width: 24%;
 }
 
@@ -574,6 +702,7 @@ footer img {
   width: 110%;
   height: 180%;
 }
+
 
 
 
@@ -618,6 +747,17 @@ footer img {
   .region-title img{
     width: 60%;
   }
+
+/* Breaker */
+
+.breaker > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding-left: 0px;
+  width: 8%;
+}
 
 /* Region Paragraphs */
 
@@ -851,6 +991,17 @@ footer img {
     width: 70%;
   }
 
+  /* Breaker */
+
+.breaker > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding-left: 0px;
+  width: 8%;
+}
+
   /* Region Paragraphs */
 
 .flex-introparas {
@@ -1082,6 +1233,17 @@ footer img {
   width: 60%;
 }
 
+/* Breaker */
+
+.breaker > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  padding-left: 0px;
+  width: 8%;
+}
+
   /* Region Paragraphs */
 
   .flex-introparas {
@@ -1300,40 +1462,51 @@ footer img {
     width: 18%;
   } 
 
-    /* Region Paragraphs */
+  /* Breaker */
 
-    .flex-introparas {
-      display: flex;
-      justify-content: center;
-      margin-left: 250px;
-      margin-right: 250px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    
-    #intropara-one {
-      width: 180%;
-      margin-right: 0px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    
-    #intropara-one p {
-      text-align: justify;
-      font-size: 100%;
-    }
-    
-    #intropara-two {
-      width: 180%;
-      margin-left: 30px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    
-    #intropara-two p {
-      text-align: justify;
-      font-size: 100%;
-    }
+.breaker > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
+  padding-left: 0px;
+  width: 5%;
+}
+
+  /* Region Paragraphs */
+
+  .flex-introparas {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #intropara-one {
+    width: 180%;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #intropara-one p {
+    text-align: justify;
+    font-size: 100%;
+  }
+  
+  #intropara-two {
+    width: 180%;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #intropara-two p {
+    text-align: justify;
+    font-size: 100%;
+  }
       
   
   /* Alderaan image */
