@@ -72,7 +72,7 @@ nav img {
 
 #intropara-two {
   width: 180%;
-  margin-left: 30px;
+  margin-left: 23px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -85,7 +85,7 @@ nav img {
 /* KEY */
 
 .full-key {
-  margin-top: 38px;
+  margin-top: 70px;
   margin-bottom: 180px;
 }
 
@@ -95,8 +95,10 @@ nav img {
 
 .full-key > h1 {
   font-family: brandon-grotesque, sans-serif;
-  font-weight: 900;
+  font-size: 250%;
+  font-weight: 1000;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .flex-key {
@@ -655,7 +657,7 @@ nav img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 22px;
   margin-bottom: 10px;
   border-radius: 5px;
   width: 130px;
@@ -792,6 +794,20 @@ footer img {
 #intropara-two p {
   text-align: justify;
   font-size: 85%;
+}
+
+/* KEY */
+
+.full-key {
+  display: none;
+}
+
+/* Img Before List */
+
+.b4list > img {
+  margin-top: 160px;
+  width: 14%;
+  height: 14%;
 }
 
 /* Alderaan image */
@@ -1037,6 +1053,20 @@ footer img {
   font-size: 90%;
 }
 
+/* KEY */
+
+.full-key {
+  display: none;
+}
+
+/* Img Before List */
+
+.b4list > img {
+  margin-top: 160px;
+  width: 10%;
+  height: 10%;
+}
+
   /* Alderaan image */
 
 .img-alderaan {
@@ -1244,41 +1274,54 @@ footer img {
   width: 8%;
 }
 
-  /* Region Paragraphs */
+/* Region Paragraphs */
 
-  .flex-introparas {
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  #intropara-one {
-    width: 180%;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  #intropara-one p {
-    text-align: justify;
-    font-size: 100%;
-  }
-  
-  #intropara-two {
-    width: 180%;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  #intropara-two p {
-    text-align: justify;
-    font-size: 100%;
-  }
-  
+.flex-introparas {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one {
+  width: 180%;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one p {
+  text-align: justify;
+  font-size: 100%;
+}
+
+#intropara-two {
+  width: 180%;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-two p {
+  text-align: justify;
+  font-size: 100%;
+}
+
+/* KEY */
+
+.full-key {
+  display: none;
+}
+
+/* Img Before List */
+
+.b4list > img {
+  margin-top: 160px;
+  width: 11%;
+  height: 11%;
+}
 
   /* Alderaan image */
 
@@ -1473,43 +1516,56 @@ footer img {
   width: 5%;
 }
 
-  /* Region Paragraphs */
+/* Region Paragraphs */
 
-  .flex-introparas {
-    display: flex;
-    justify-content: center;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+.flex-introparas {
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one {
+  width: 180%;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-one p {
+  text-align: justify;
+  font-size: 100%;
+}
+
+#intropara-two {
+  width: 180%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#intropara-two p {
+  text-align: justify;
+  font-size: 100%;
+}
+    
+/* KEY */
+
+.full-key {
+  display: none;
+}
+
+/* Img Before List */
+
+.b4list > img {
+  margin-top: 160px;
+  width: 8%;
+  height: 8%;
+}
   
-  #intropara-one {
-    width: 180%;
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  #intropara-one p {
-    text-align: justify;
-    font-size: 100%;
-  }
-  
-  #intropara-two {
-    width: 180%;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  #intropara-two p {
-    text-align: justify;
-    font-size: 100%;
-  }
-      
-  
-  /* Alderaan image */
+/* Alderaan image */
 
 .img-alderaan {
   position: relative;
