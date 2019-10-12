@@ -551,7 +551,7 @@ nav img {
 #cw-underimg img{
   display: block;
   width: 20px;
-  height: 23px;
+  height: 25px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;
@@ -626,6 +626,15 @@ nav img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
+}
+
+#ffg-logo-undertext img{
+  display: block;
+  width: 23px;
+  height: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
 }
 
 .collapsible {
