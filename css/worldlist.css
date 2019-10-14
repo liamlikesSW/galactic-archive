@@ -174,8 +174,8 @@ nav img {
 .list-worlds > div {
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 115px;
+    margin-bottom: 115px;
 }
 
 #list-worlds-lit {
@@ -239,6 +239,24 @@ nav img {
     margin-right: 10px;
 }
 
+#first-paragraph-4 {
+  width: 150px;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+#first-paragraph-5 {
+  width: 200px;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+#first-paragraph-6 {
+  width: 160px;
+  margin: 0px;
+  margin-right: 10px;
+}
+
 #second-paragraph {
     margin: 0px;
     width: 120px;
@@ -249,6 +267,30 @@ nav img {
     margin: 0px;
     width: 140px;
     margin-left: 10px;
+}
+
+#second-paragraph-3 {
+  width: 130px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#second-paragraph-4 {
+  width: 150px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#second-paragraph-5 {
+  width: 200px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#second-paragraph-6 {
+  width: 160px;
+  margin: 0px;
+  margin-left: 10px;
 }
 
 #only-paragraph {
@@ -266,10 +308,9 @@ nav img {
   margin: 0px;
 }
 
-#second-paragraph-3 {
-    width: 130px;
-    margin: 0px;
-    margin-left: 10px;
+#only-paragraph-4 {
+  width: 180px;
+  margin: 0px;
 }
 
 #source {
@@ -551,7 +592,7 @@ nav img {
 #cw-underimg img{
   display: block;
   width: 20px;
-  height: 25px;
+  height: 24px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;
@@ -559,8 +600,8 @@ nav img {
 
 #cw-flex-underimg img{
   display: block;
-  width: 18px;
-  height: 22px;
+  width: 20px;
+  height: 24px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -580,11 +621,11 @@ nav img {
 
 #gcw-flex-underimg img{
   display: block;
-  width: 18px;
+  width: 22px;
   height: 22px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+  margin-top: 16px;
 }
 
 /* First Order v Resistance Battle Logo */
@@ -662,6 +703,17 @@ nav img {
   height: 130px;
 }
 
+#comic-img2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  width: 140px;
+  height: 130px;
+}
+
 #comic-img-moon img {
   display: block;
   margin-left: auto;
@@ -687,10 +739,12 @@ nav img {
   width: 24%;
 }
 
-#continue-to h3 {
+#continue-to h3 > a {
   font-weight: 800;
   font-size: 25px;
   position: absolute;
+  text-decoration: none;
+  color: #DCE8F5;
   top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
