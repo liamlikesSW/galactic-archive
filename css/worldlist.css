@@ -178,6 +178,27 @@ nav img {
     margin-bottom: 115px;
 }
 
+.part-1 > div {
+  justify-content: center;
+  align-items: center;
+  margin-top: 115px;
+  margin-bottom: 115px;
+}
+
+.part-2 > div {
+  justify-content: center;
+  align-items: center;
+  margin-top: 115px;
+  margin-bottom: 115px;
+}
+
+.part-3 > div {
+  justify-content: center;
+  align-items: center;
+  margin-top: 115px;
+  margin-bottom: 115px;
+}
+
 #list-worlds-lit {
   margin-bottom: 45px;
 }
@@ -393,6 +414,13 @@ nav img {
   justify-content: space-around;
 }
 
+#lit-flex-spacarond-underimg2 {
+  display: flex;
+  flex-direction: row;
+  width: 140px;
+  justify-content: space-around;
+}
+
 /* Alderaan image */
 
 .img-alderaan {
@@ -421,7 +449,7 @@ nav img {
     width: 58%;
 }
 
-/* Anaxes image */
+/* Anaxes (Vandor) image */
 
 .img-anaxes {
     position: relative;
@@ -439,7 +467,7 @@ nav img {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 800;
     position: absolute;
-    top: 64%;
+    top: 61%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -449,7 +477,7 @@ nav img {
       width: 58%;
   }
 
-/* Corellia image */
+/* Corellia (Wasskah) image */
 
 .img-corellia {
     position: relative;
@@ -458,6 +486,9 @@ nav img {
   
   .img-corellia h1 {
     position: absolute;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 900; /*this will fuck ur shit up*/
+    font-style: normal;
     top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -467,7 +498,7 @@ nav img {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 800;
     position: absolute;
-    top: 64%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -545,6 +576,98 @@ nav img {
 }
 
 .img-skako img {
+  border-radius: 7px;
+  width: 58%;
+}
+
+/* Aleen Image */
+
+.img-aleen {
+  position: relative;
+  text-align: center;
+}
+
+.img-aleen h1{
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ebe1c7;
+  text-shadow: -1px 0 #7d7850, 0 1px #7d7850, 1px 0 #7d7850, 0 -1px #7d7850;
+}
+
+.img-aleen h3{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FCFCDC;
+  text-shadow: -1px 0 #7d7850, 0 1px #7d7850, 1px 0 #7d7850, 0 -1px #7d7850;
+}
+
+.img-aleen img {
+  border-radius: 7px;
+  width: 58%;
+}
+
+/* Kashyyyk Image */
+
+.img-kashyyyk {
+  position: relative;
+  text-align: center;
+}
+
+.img-kashyyyk h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #141829, 0 1px #141829, 1px 0 #141829, 0 -1px #141829;
+}
+
+.img-kashyyyk h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #324157, 0 1px #324157, 1px 0 #324157, 0 -1px #324157;
+  -webkit-text-stroke-color: #324157;
+  -webkit-text-stroke-width: 0.60px; 
+}
+
+.img-kashyyyk img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+/* Shantipole image */
+
+.img-shantipole {
+  position: relative;
+  text-align: center;
+}
+
+.img-shantipole h1 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-shantipole h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-shantipole img {
     border-radius: 7px;
     width: 58%;
 }
@@ -611,9 +734,8 @@ nav img {
 
 #gcw-underimg img{
   display: block;
-  width: 22px;
-  height: 22px;
-  padding-left: 2px;
+  width: 23px;
+  height: 23px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;
@@ -621,11 +743,22 @@ nav img {
 
 #gcw-flex-underimg img{
   display: block;
-  width: 22px;
-  height: 22px;
+  width: 23px;
+  height: 23px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 16px;
+  margin-top: 0px;
+}
+
+#gcw-flex-undertext img {
+
+  display: block;
+  width: 23px;
+  height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+
 }
 
 /* First Order v Resistance Battle Logo */
@@ -633,8 +766,7 @@ nav img {
 #fovr-underimg img{
   display: block;
   width: 21px;
-  height: 22px;
-  padding-left: 2px;
+  height: 23px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;
@@ -642,8 +774,8 @@ nav img {
 
 #fovr-flex-underimg img{
   display: block;
-  width: 18px;
-  height: 22px;
+  width: 21px;
+  height: 23px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -653,8 +785,8 @@ nav img {
 
 #ffg-logo img{
   display: block;
-  width: 23px;
-  height: 19px;
+  width: 24px;
+  height: 20px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3px;
@@ -662,8 +794,8 @@ nav img {
 
 #ffg-logo-underimg img{
   display: block;
-  width: 23px;
-  height: 19px;
+  width: 24px;
+  height: 20px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -671,8 +803,8 @@ nav img {
 
 #ffg-logo-undertext img{
   display: block;
-  width: 23px;
-  height: 19px;
+  width: 24px;
+  height: 20px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 17px;
