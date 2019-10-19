@@ -334,6 +334,11 @@ nav img {
   margin: 0px;
 }
 
+#only-paragraph-5 {
+  width: 200px;
+  margin: 0px;
+}
+
 #source {
    line-height: 1.5;
 }
@@ -343,6 +348,11 @@ nav img {
   font-size: 10px;
   font-family: futura-pt, sans-serif;
   font-weight: 150;
+}
+
+#source a {
+  text-decoration: none;
+  color: blue;
 }
 
 /* Lit Logo */
