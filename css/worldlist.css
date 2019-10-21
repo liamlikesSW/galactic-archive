@@ -178,6 +178,13 @@ nav img {
     margin-bottom: 115px;
 }
 
+.close > div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+
 .part-1 > div {
   justify-content: center;
   align-items: center;
@@ -337,6 +344,10 @@ nav img {
 #only-paragraph-5 {
   width: 200px;
   margin: 0px;
+}
+
+#ru {
+  margin-top: 3px;
 }
 
 #source {
