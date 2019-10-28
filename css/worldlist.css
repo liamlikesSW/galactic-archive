@@ -23,6 +23,33 @@ nav img {
   width: 12%;
 }
 
+/* Index Page */
+
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20%;
+}
+
+.main-menu > div {
+  margin: 7%;
+}
+
+.main-menu h1 {
+  text-decoration: none;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-menu a:hover {
+  color: lightblue;
+}
+
 /* Region Title */
 
 .region-title {
@@ -557,6 +584,60 @@ nav img {
       width: 58%;
   }
 
+  /* No Region image */
+
+.img-noregion {
+  position: relative;
+  text-align: center;
+}
+
+.img-noregion h1 {
+  position: absolute;
+  font-weight: 900;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-noregion-nobold img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+.img-noregion-nobold {
+  position: relative;
+  text-align: center;
+}
+
+.img-noregion-nobold h1 {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-noregion img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+.img-noregion2 {
+  position: relative;
+  text-align: center;
+}
+
+.img-noregion2 h1 {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-noregion2 img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Skako Minor image */
 
 .img-skako {
@@ -742,6 +823,15 @@ nav img {
   margin-top: 16px;
 }
 
+#cw-underimg2 img{
+  display: block;
+  width: 20px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
 #cw-flex-underimg img{
   display: block;
   width: 20px;
@@ -867,11 +957,33 @@ nav img {
   height: 130px;
 }
 
+#comic-img2-nr img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  width: 140px;
+  height: 130px;
+}
+
 #comic-img-moon img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 22px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 130px;
+  height: 130px;
+}
+
+#comic-img-nr img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
   margin-bottom: 10px;
   border-radius: 5px;
   width: 130px;
@@ -993,6 +1105,10 @@ footer img {
   margin-right: 0px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#intropara-only-one {
+  width: 20%;
 }
 
 #intropara-one p {
