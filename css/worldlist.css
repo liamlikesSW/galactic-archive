@@ -556,6 +556,101 @@ nav img {
       width: 58%;
   }
 
+  .img-corellia2 {
+    position: relative;
+    text-align: center;
+  }
+  
+  .img-corellia2 h1 {
+    position: absolute;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .img-corellia2 h3 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 800;
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .img-corellia2 img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+  .img-corellia3 img {
+      border-radius: 7px;
+      width: 58%;
+  }
+
+  .img-corellia3 {
+    position: relative;
+    text-align: center;
+  }
+  
+  .img-corellia3 h1 {
+    position: absolute;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .img-corellia3 h3 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 800;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .img-corellia3 img {
+      border-radius: 7px;
+      width: 58%;
+  }
+
+/* Lothal */
+
+.img-lothal {
+  position: relative;
+  text-align: center;
+}
+
+.img-lothal h1 {
+  position: absolute;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #31405f;
+  -webkit-text-stroke-width: 1px;
+}
+
+.img-lothal h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #31405f;
+  -webkit-text-stroke-width: 1px;
+}
+
+.img-lothal img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Coruscant image */
 
 .img-coruscant {
@@ -583,6 +678,67 @@ nav img {
       border-radius: 7px;
       width: 58%;
   }
+
+  .img-coruscant2 {     /* Bold h3 */
+    position: relative;
+    text-align: center;
+  }
+  
+  .img-coruscant2 h1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .img-coruscant2 h3 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 800;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-color: #333333;
+    -webkit-text-stroke-width: 1px; 
+  }
+  
+  .img-coruscant2 img {
+      border-radius: 7px;
+      width: 58%;
+  }
+
+  /* Florrum Image (both black outlines) */
+
+  .img-florrum {
+    position: relative;
+    text-align: center;
+  }
+  
+  .img-florrum h1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-color: #2e2e2e;
+    -webkit-text-stroke-width: 2px; 
+  }
+  
+  .img-florrum h3 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 800;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-color: #2e2e2e;
+    -webkit-text-stroke-width: 1.6px; 
+  }
+  
+  .img-florrum img {
+      border-radius: 7px;
+      width: 58%;
+  }
+
 
   /* No Region image */
 
@@ -714,6 +870,39 @@ nav img {
   width: 58%;
 }
 
+/* Batuu */
+
+.img-aleen2 {
+  position: relative;
+  text-align: center;
+}
+
+.img-aleen2 h1{
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #6E6A60;
+  text-shadow: -1px 0 #2e2a24, 0 1px #2e2a24, 1px 0 #2e2a24, 0 -1px #2e2a24;
+}
+
+.img-aleen2 h3{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 900;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #57534a;
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: #2e2a24; 
+}
+
+.img-aleen2 img {
+  border-radius: 7px;
+  width: 58%;
+}
+
 /* Kashyyyk Image */
 
 .img-kashyyyk {
@@ -736,9 +925,8 @@ nav img {
   top: 66%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #324157, 0 1px #324157, 1px 0 #324157, 0 -1px #324157;
   -webkit-text-stroke-color: #324157;
-  -webkit-text-stroke-width: 0.60px; 
+  -webkit-text-stroke-width: 1px; 
 }
 
 .img-kashyyyk img {
@@ -764,7 +952,7 @@ nav img {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 67%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -951,10 +1139,20 @@ nav img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 22px;
-  margin-bottom: 50px;
+  margin-bottom: 17px;
   border-radius: 5px;
   width: 140px;
   height: 130px;
+}
+
+#comic-img3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  width: 20%;
 }
 
 #comic-img2-nr img {
@@ -1144,164 +1342,149 @@ footer img {
 
 /* Alderaan image */
 
-.img-alderaan {
-  position: relative;
-  text-align: center;
-}
-
 .img-alderaan h1 {
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
-
-.img-alderaan h3 {
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
-  position: absolute;
-  top: 66%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
+  width: 70%;
 }
 
 .img-alderaan img {
     border-radius: 0px;
-    width: 160%;
+    width: 170%;
 }
 
 /* Anaxes image */
 
-.img-anaxes {
-    position: relative;
-    text-align: center;
-  }
-
 .img-anaxes h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-anaxes h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 70%;
   }
   
   .img-anaxes img {
       border-radius: 0px;
-      width: 160%;
+      width: 170%;
   }
 
 /* Corellia image */
 
-.img-corellia {
-    position: relative;
-    text-align: center;
-    color: #d3dbe3;
-  }
   
   .img-corellia h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: -1px 0 #081730, 0 1px #081730, 1px 0 #081730, 0 -1px #081730;
-  }
-  
-  .img-corellia h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: -1px 0 #081730, 0 1px #081730, 1px 0 #081730, 0 -1px #081730;
+    width: 70%;
   }
   
   .img-corellia img {
-      border-radius: 0px;
-      width: 160%;
+    border-radius: 0px;
+    width: 170%;
+  }
+
+  .img-corellia2 h1 {
+    width: 70%;
+  }
+  
+  .img-corellia2 img {
+    border-radius: 0px;
+    width: 170%;
+}
+
+  .img-corellia3 h1 {
+    width: 70%;
+  }
+
+  .img-corellia3 img {
+    border-radius: 0px;
+    width: 170%;
   }
 
 /* Coruscant image */
-
-.img-coruscant {
-    position: relative;
-    text-align: center;
-  }
   
   .img-coruscant h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-coruscant h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 70%;
   }
   
   .img-coruscant img {
       border-radius: 0px;
-      width: 160%;
+      width: 170%;
   }
 
 /* Skako Minor image */
 
-.img-skako {
-  position: relative;
-  text-align: center;
-}
-
 .img-skako h1 {
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FCFCDC;
-  /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
-  0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
-  0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-  0 5px 5px rgba(0,0,0,.25), 0 5px 5px rgba(0,0,0,.2), 
-  0 5px 5px rgba(0,0,0,.15);*/
-  text-shadow: -1px 0 #bfc48b, 0 1px #bfc48b, 1px 0 #bfc48b, 0 -1px #bfc48b;
-}
-
-.img-skako h3 {
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
-  position: absolute;
-  top: 64%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FCFCDC;
-  /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
-  0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
-  0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-  0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 
-  0 5px 5px rgba(0,0,0,.15);*/
-  text-shadow: -1px 0 #bfc48b, 0 1px #bfc48b, 1px 0 #bfc48b, 0 -1px #bfc48b;
+  width: 70%;
 }
 
 .img-skako img {
     border-radius: 0px;
-    width: 160%;
+    width: 170%;
 }
+
+/* Shantipole Image */
+
+.img-shantipole h1 {
+  width: 70%;
+}
+
+.img-shantipole img {
+  border-radius: 0px;
+  width: 180%;
+}
+
+  /* No Region image */
+  
+  .img-noregion img {
+      border-radius: 0px;
+      width: 180%;
+  }
+
+  .img-noregion-nobold img {
+    border-radius: 0px;
+    width: 180%;
+}
+
+  .img-noregion2 img {
+      border-radius: 0px;
+      width: 180%;
+  }
+
+  /* Batuu */
+
+.img-aleen2 img {
+  border-radius: 0px;
+    width: 180%;
+}
+
+/* Kashyyyk Image */
+
+.img-kashyyyk img {
+    border-radius: 0px;
+    width: 180%;
+}
+
+/* Florrum Image (both black outlines) */
+
+.img-florrum h1 {
+  width: 70%;
+}
+
+.img-florrum img {
+  border-radius: 0px;
+  width: 180%;
+}
+
+/* Lothal */
+
+.img-lothal h1 {
+  width: 70%;
+}
+
+.img-lothal img {
+  border-radius: 0px;
+  width: 180%;
+}
+
+/* Aleen Image */
+
+.img-aleen img {
+  border-radius: 0px;
+  width: 180%;
+}
+
 
 #continue-to img {
   border-radius: 0px;
@@ -1401,162 +1584,106 @@ footer img {
 
   /* Alderaan image */
 
-.img-alderaan {
-  position: relative;
-  text-align: center;
-}
-
-.img-alderaan h1 {
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.img-alderaan h3 {
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
-  position: absolute;
-  top: 59%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .img-alderaan img {
     border-radius: 0px;
-    width: 145%;
+    width: 135%;
 }
 
 /* Anaxes image */
-
-.img-anaxes {
-    position: relative;
-    text-align: center;
-  }
-
-.img-anaxes h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-anaxes h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   
   .img-anaxes img {
       border-radius: 0px;
-      width: 145%;
+      width: 135%;
   }
 
 /* Corellia image */
-
-.img-corellia {
-    position: relative;
-    text-align: center;
-    color: #d3dbe3;
-  }
-  
-  .img-corellia h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: -1px 0 #081730, 0 1px #081730, 1px 0 #081730, 0 -1px #081730;
-  }
-  
-  .img-corellia h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: -1px 0 #081730, 0 1px #081730, 1px 0 #081730, 0 -1px #081730;
-  }
   
   .img-corellia img {
       border-radius: 0px;
-      width: 145%;
+      width: 135%;
+  }
+
+  .img-corellia2 img {
+    border-radius: 0px;
+    width: 135%;
+}
+
+  .img-corellia3 img {
+    border-radius: 0px;
+    width: 135%;
   }
 
 /* Coruscant image */
-
-.img-coruscant {
-    position: relative;
-    text-align: center;
-  }
-  
-  .img-coruscant h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-coruscant h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   
   .img-coruscant img {
       border-radius: 0px;
-      width: 145%;
+      width: 135%;
   }
 
 /* Skako Minor image */
 
-.img-skako {
-  position: relative;
-  text-align: center;
-}
-
-.img-skako h1 {
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FCFCDC;
-  /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
-  0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
-  0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-  0 5px 5px rgba(0,0,0,.25), 0 5px 5px rgba(0,0,0,.2), 
-  0 5px 5px rgba(0,0,0,.15);*/
-  text-shadow: -1px 0 #bfc48b, 0 1px #bfc48b, 1px 0 #bfc48b, 0 -1px #bfc48b;
-  white-space: pre;
-}
-
-.img-skako h3 {
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
-  position: absolute;
-  top: 64%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FCFCDC;
-  /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
-  0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
-  0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-  0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 
-  0 5px 5px rgba(0,0,0,.15);*/
-  text-shadow: -1px 0 #bfc48b, 0 1px #bfc48b, 1px 0 #bfc48b, 0 -1px #bfc48b;
-}
-
 .img-skako img {
     border-radius: 0px;
-    width: 145%;
+    width: 135%;
+}
+
+ /* No Region image */
+
+.img-noregion-nobold img {
+  border-radius: 0px;
+  width: 135%;
+}
+
+.img-noregion img {
+    border-radius: 0px;
+    width: 135%;
+}
+
+.img-noregion2 img {
+    border-radius: 0px;
+    width: 135%;
+}
+
+/* Batuu */
+
+.img-aleen2 img {
+  border-radius: 0px;
+    width: 135%;
+}
+
+/* Kashyyyk Image */
+
+.img-kashyyyk img {
+  border-radius: 0px;
+  width: 135%;
+}
+
+/* Florrum Image (both black outlines) */
+
+.img-florrum img {
+  border-radius: 0px;
+  width: 135%;
+}
+
+/* Lothal */
+
+.img-lothal img {
+  border-radius: 0px;
+  width: 135%;
+}
+
+/* Aleen Image */
+
+.img-aleen img {
+  border-radius: 0px;
+  width: 135%;
+}
+
+/* Shantipole Image */
+
+.img-shantipole img {
+  border-radius: 0px;
+  width: 137%;
 }
 
 #continue-to img {
@@ -1657,116 +1784,40 @@ footer img {
 
   /* Alderaan image */
 
-.img-alderaan {
-  position: relative;
-  text-align: center;
-}
-
-.img-alderaan h1 {
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
-
-.img-alderaan h3 {
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
-  position: absolute;
-  top: 63%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
-
 .img-alderaan img {
     border-radius: 0px;
-    width: 100%;
+    width: 108%;
 }
 
 /* Anaxes image */
-
-.img-anaxes {
-    position: relative;
-    text-align: center;
-  }
-
-.img-anaxes h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-anaxes h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   
   .img-anaxes img {
       border-radius: 0px;
-      width: 100%;
+      width: 108%;
   }
 
 /* Corellia image */
-
-.img-corellia {
-    position: relative;
-    text-align: center;
-  }
-  
-  .img-corellia h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-corellia h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   
   .img-corellia img {
       border-radius: 0px;
-      width: 100%;
+      width: 108%;
+  }
+
+  .img-corellia2 img {
+    border-radius: 0px;
+    width: 108%;
+}
+
+  .img-corellia3 img {
+    border-radius: 0px;
+    width: 108%;
   }
 
 /* Coruscant image */
 
-.img-coruscant {
-    position: relative;
-    text-align: center;
-  }
-  
-  .img-coruscant h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-coruscant h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
   .img-coruscant img {
       border-radius: 0px;
-      width: 100%;
+      width: 108%;
   }
 
 /* Skako Minor image */
@@ -1776,41 +1827,68 @@ footer img {
   text-align: center;
 }
 
-.img-skako h1 {
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FCFCDC;
-  /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
-  0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
-  0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-  0 5px 5px rgba(0,0,0,.25), 0 5px 5px rgba(0,0,0,.2), 
-  0 5px 5px rgba(0,0,0,.15);*/
-  text-shadow: -1px 0 #bfc48b, 0 1px #bfc48b, 1px 0 #bfc48b, 0 -1px #bfc48b;
-}
-
-.img-skako h3 {
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
-  position: absolute;
-  top: 64%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FCFCDC;
-  /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
-  0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
-  0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-  0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 
-  0 5px 5px rgba(0,0,0,.15);*/
-  text-shadow: -1px 0 #bfc48b, 0 1px #bfc48b, 1px 0 #bfc48b, 0 -1px #bfc48b;
-}
-
 .img-skako img {
     border-radius: 0px;
-    width: 100%;
+    width: 108%;
+}
+
+ /* No Region image */
+
+ .img-noregion-nobold img {
+  border-radius: 0px;
+  width: 108%;
+}
+
+.img-noregion img {
+    border-radius: 0px;
+    width: 108%;
+}
+
+.img-noregion2 img {
+    border-radius: 0px;
+    width: 108%;
+}
+
+/* Batuu */
+
+.img-aleen2 img {
+  border-radius: 0px;
+    width: 108%;
+}
+
+/* Kashyyyk Image */
+
+.img-kashyyyk img {
+  border-radius: 0px;
+    width: 108%;
+}
+
+/* Florrum Image (both black outlines) */
+
+.img-florrum img {
+  border-radius: 0px;
+    width: 108%;
+}
+
+/* Lothal */
+
+.img-lothal img {
+  border-radius: 0px;
+    width: 108%;
+}
+
+/* Aleen Image */
+
+.img-aleen img {
+  border-radius: 0px;
+    width: 108%;
+}
+
+/* Shantipole Image */
+
+.img-shantipole img {
+  border-radius: 0px;
+  width: 112%;
 }
 
 #continue-to img {
@@ -1899,30 +1977,9 @@ footer img {
   
 /* Alderaan image */
 
-.img-alderaan {
-  position: relative;
-  text-align: center;
-}
-
-.img-alderaan h1 {
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.img-alderaan h3 {
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
-  position: absolute;
-  top: 66%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .img-alderaan img {
     border-radius: 7px;
-    width: 70%;
+    width: 80%;
 }
 
 /* Anaxes image */
@@ -1931,26 +1988,10 @@ footer img {
     position: relative;
     text-align: center;
   }
-
-.img-anaxes h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-anaxes h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   
   .img-anaxes img {
       border-radius: 7px;
-      width: 70%;
+      width: 80%;
   }
 
 /* Corellia image */
@@ -1960,97 +2001,92 @@ footer img {
     text-align: center;
   }
   
-  .img-corellia h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-corellia h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
   .img-corellia img {
       border-radius: 7px;
-      width: 70%;
+      width: 80%;
+  }
+
+  .img-corellia2 img {
+      border-radius: 7px;
+      width: 80%;
+}
+
+  .img-corellia3 img {
+      border-radius: 7px;
+      width: 80%;
   }
 
 /* Coruscant image */
 
-.img-coruscant {
-    position: relative;
-    text-align: center;
-  }
-  
-  .img-coruscant h1 {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .img-coruscant h3 {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 800;
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
   .img-coruscant img {
       border-radius: 7px;
-      width: 70%;
+      width: 80%;
   }
 
 /* Skako Minor image */
 
-.img-skako {
-  position: relative;
-  text-align: center;
-}
-
-.img-skako h1 {
-  position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FCFCDC;
-  /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
-  0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
-  0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-  0 5px 5px rgba(0,0,0,.25), 0 5px 5px rgba(0,0,0,.2), 
-  0 5px 5px rgba(0,0,0,.15);*/
-  text-shadow: -1px 0 #bfc48b, 0 1px #bfc48b, 1px 0 #bfc48b, 0 -1px #bfc48b;
-}
-
-.img-skako h3 {
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
-  position: absolute;
-  top: 64%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FCFCDC;
-  /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
-  0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
-  0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-  0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 
-  0 5px 5px rgba(0,0,0,.15);*/
-  text-shadow: -1px 0 #bfc48b, 0 1px #bfc48b, 1px 0 #bfc48b, 0 -1px #bfc48b;
-}
-
 .img-skako img {
     border-radius: 7px;
-    width: 70%;
+    width: 80%;
+}
+
+ /* No Region image */
+
+ .img-noregion-nobold img {
+  border-radius: 7px;
+    width: 80%;
+}
+
+.img-noregion img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+.img-noregion2 img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Batuu */
+
+.img-aleen2 img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Kashyyyk Image */
+
+.img-kashyyyk img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Florrum Image (both black outlines) */
+
+.img-florrum img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Lothal */
+
+.img-lothal img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Aleen Image */
+
+.img-aleen img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Shantipole Image */
+
+.img-shantipole img {
+  border-radius: 7px;
+  width: 87%;
 }
 
 #continue-to img {
