@@ -850,7 +850,7 @@ nav img {
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ebe1c7;
+  color: #FCFCDC;
   text-shadow: -1px 0 #7d7850, 0 1px #7d7850, 1px 0 #7d7850, 0 -1px #7d7850;
 }
 
@@ -861,7 +861,7 @@ nav img {
   top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FCFCDC;
+  color: #ebe1c7;
   text-shadow: -1px 0 #7d7850, 0 1px #7d7850, 1px 0 #7d7850, 0 -1px #7d7850;
 }
 
@@ -958,6 +958,38 @@ nav img {
 }
 
 .img-shantipole img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+/* Drahgor III image */
+
+.img-drahgor {
+  position: relative;
+  text-align: center;
+}
+
+.img-drahgor h1 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #42391b;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-drahgor h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #5C4F29;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-drahgor img {
     border-radius: 7px;
     width: 58%;
 }
@@ -1422,7 +1454,18 @@ footer img {
 
 .img-shantipole img {
   border-radius: 0px;
-  width: 180%;
+  width: 170%;
+}
+
+/* Drahgor III image */
+
+.img-drahgor h1 {
+  width: 70%; 
+}
+
+.img-drahgor img {
+    border-radius: 7px;
+    width: 58%;
 }
 
   /* No Region image */
@@ -1485,6 +1528,9 @@ footer img {
   width: 180%;
 }
 
+#comic-img3 img {
+  width: 50%;
+}
 
 #continue-to img {
   border-radius: 0px;
@@ -1684,6 +1730,17 @@ footer img {
 .img-shantipole img {
   border-radius: 0px;
   width: 137%;
+}
+
+/* Drahgor III image */
+
+.img-drahgor img {
+  border-radius: 0px;
+  width: 137%;
+}
+
+#comic-img3 img {
+  width: 50%;
 }
 
 #continue-to img {
@@ -1891,6 +1948,17 @@ footer img {
   width: 112%;
 }
 
+/* Drahgor III image */
+
+.img-drahgor img {
+  border-radius: 0px;
+  width: 115%;
+}
+
+#comic-img3 img {
+  width: 40%;
+}
+
 #continue-to img {
   border-radius: 5px;
   width: 45%;
@@ -2087,6 +2155,17 @@ footer img {
 .img-shantipole img {
   border-radius: 7px;
   width: 87%;
+}
+
+/* Drahgor III image */
+
+.img-drahgor img {
+  border-radius: 7px;
+  width: 92%;
+}
+
+#comic-img3 img {
+  width: 30%;
 }
 
 #continue-to img {
