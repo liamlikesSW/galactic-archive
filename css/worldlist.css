@@ -535,11 +535,11 @@ nav img {
   .img-corellia h1 {
     position: absolute;
     font-family: brandon-grotesque, sans-serif;
-    font-weight: 900; /*this will fuck ur shit up*/
     font-style: normal;
     top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
   }
   
   .img-corellia h3 {
@@ -739,7 +739,6 @@ nav img {
       width: 58%;
   }
 
-
   /* No Region image */
 
 .img-noregion {
@@ -934,6 +933,37 @@ nav img {
     width: 58%;
 }
 
+/* Mandalore Image */
+
+.img-mandalore {
+  position: relative;
+  text-align: center;
+}
+
+.img-mandalore h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #454545, 0 1px #454545, 1px 0 #454545, 0 -1px #454545;
+}
+
+.img-mandalore h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #454545;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-mandalore img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Shantipole image */
 
 .img-shantipole {
@@ -957,7 +987,34 @@ nav img {
   transform: translate(-50%, -50%);
 }
 
-.img-shantipole img {
+/* Wellspring of the Force image */
+
+.img-wellspring {
+  position: relative;
+  text-align: center;
+}
+
+.img-wellspring h1 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #f0f0f0;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-wellspring h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #f0f0f0;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-wellspring img {
     border-radius: 7px;
     width: 58%;
 }
@@ -973,9 +1030,8 @@ nav img {
   position: absolute;
   top: 36%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #42391b;
-  -webkit-text-stroke-width: 1px; 
+  transform: translate(-50%, -50%); 
+  text-shadow: -1px 0 #42391b, 0 1px #42391b, 1px 0 #42391b, 0 -1px #42391b;
 }
 
 .img-drahgor h3 {
@@ -1017,6 +1073,15 @@ nav img {
 #moon2 img{
   display: block;
   width: 20px;
+  height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+#moon-under2text img{
+  display: block;
+  width: 23px;
   height: 23px;
   margin-left: auto;
   margin-right: auto;
@@ -1457,6 +1522,17 @@ footer img {
   width: 170%;
 }
 
+/* Wellspring of the Force image */
+
+.img-wellspring h1 {
+  width: 70%;
+}
+
+.img-wellspring img {
+  border-radius: 0px;
+  width: 170%;
+}
+
 /* Drahgor III image */
 
 .img-drahgor h1 {
@@ -1517,6 +1593,17 @@ footer img {
 }
 
 .img-lothal img {
+  border-radius: 0px;
+  width: 180%;
+}
+
+/* Mandalore Image */
+
+.img-mandalore {
+  width: 70%;
+}
+
+.img-mandalore img {
   border-radius: 0px;
   width: 180%;
 }
@@ -1718,6 +1805,13 @@ footer img {
   width: 135%;
 }
 
+/* Mandalore Image */
+
+.img-mandalore img {
+  border-radius: 0px;
+  width: 135%;
+}
+
 /* Aleen Image */
 
 .img-aleen img {
@@ -1728,6 +1822,17 @@ footer img {
 /* Shantipole Image */
 
 .img-shantipole img {
+  border-radius: 0px;
+  width: 137%;
+}
+
+/* Wellspring of the Force image */
+
+.img-wellspring h1 {
+  width: 70%;
+}
+
+.img-wellspring img {
   border-radius: 0px;
   width: 137%;
 }
@@ -1934,6 +2039,13 @@ footer img {
     width: 108%;
 }
 
+/* Mandalore Image */
+
+.img-mandalore img {
+  border-radius: 0px;
+    width: 108%;
+}
+
 /* Aleen Image */
 
 .img-aleen img {
@@ -1946,6 +2058,17 @@ footer img {
 .img-shantipole img {
   border-radius: 0px;
   width: 112%;
+}
+
+/* Wellspring of the Force image */
+
+.img-wellspring h1 {
+  width: 70%;
+}
+
+.img-wellspring img {
+  border-radius: 0px;
+  width: 120%;
 }
 
 /* Drahgor III image */
@@ -2143,6 +2266,13 @@ footer img {
   width: 80%;
 }
 
+/* Mandalore Image */
+
+.img-mandalore img {
+  border-radius: 7px;
+  width: 80%;
+}
+
 /* Aleen Image */
 
 .img-aleen img {
@@ -2153,6 +2283,17 @@ footer img {
 /* Shantipole Image */
 
 .img-shantipole img {
+  border-radius: 7px;
+  width: 87%;
+}
+
+/* Wellspring of the Force image */
+
+.img-wellspring h1 {
+  width: 70%;
+}
+
+.img-wellspring img {
   border-radius: 7px;
   width: 87%;
 }
