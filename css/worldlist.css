@@ -914,7 +914,6 @@ nav img {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #141829, 0 1px #141829, 1px 0 #141829, 0 -1px #141829;
 }
 
 .img-kashyyyk h3 {
@@ -924,8 +923,6 @@ nav img {
   top: 66%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #324157;
-  -webkit-text-stroke-width: 1px; 
 }
 
 .img-kashyyyk img {
