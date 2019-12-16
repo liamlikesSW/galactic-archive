@@ -996,7 +996,7 @@ nav img {
   top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #f0f0f0;
+  -webkit-text-stroke-color: #ffffff;
   -webkit-text-stroke-width: 1px; 
 }
 
@@ -1007,7 +1007,7 @@ nav img {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #f0f0f0;
+  -webkit-text-stroke-color: #ffffff;
   -webkit-text-stroke-width: 1px; 
 }
 
