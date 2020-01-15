@@ -17,6 +17,11 @@ nav {
   z-index: 1;
 }
 
+nav > a {
+  display: flex;
+  justify-content: center;
+}
+
 nav img {
   margin-bottom: 10px;
   margin-right: 30px;
