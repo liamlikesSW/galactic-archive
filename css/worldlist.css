@@ -759,6 +759,11 @@ nav img {
   transform: translate(-50%, -50%);
 }
 
+.img-noregion img {
+  border-radius: 7px;
+  width: 58%;
+}
+
 .img-noregion-nobold img {
     border-radius: 7px;
     width: 58%;
@@ -776,9 +781,23 @@ nav img {
   transform: translate(-50%, -50%);
 }
 
-.img-noregion img {
-    border-radius: 7px;
-    width: 58%;
+.img-noregion-bold img {
+  border-radius: 7px;
+  width: 58%;
+}
+
+.img-noregion-bold {
+position: relative;
+text-align: center;
+}
+
+.img-noregion-bold h1 {
+position: absolute;
+top: 44%;
+left: 50%;
+transform: translate(-50%, -50%);
+-webkit-text-stroke-color: #403F3F;
+-webkit-text-stroke-width: 2px; 
 }
 
 .img-noregion2 {
@@ -1667,6 +1686,15 @@ footer img {
       width: 180%;
   }
 
+  .img-noregion-bold img {
+    border-radius: 0px;
+    width: 180%;
+  }
+  
+  .img-noregion-bold h1 {
+  width: 70%; 
+  }
+
   /* Varkana */
 
 .img-varkana h1 {
@@ -1903,6 +1931,11 @@ footer img {
 .img-noregion2 img {
     border-radius: 0px;
     width: 135%;
+}
+
+.img-noregion-bold img {
+  border-radius: 0px;
+  width: 135%;
 }
 
  /* Varkana */
@@ -2158,6 +2191,11 @@ footer img {
     width: 108%;
 }
 
+.img-noregion-bold img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 /* Varkana */
 
 .img-varkana img {
@@ -2400,6 +2438,11 @@ footer img {
 }
 
 .img-noregion2 img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+.img-noregion-bold img {
   border-radius: 7px;
   width: 80%;
 }
