@@ -793,24 +793,64 @@ nav img {
     width: 58%;
 }
 
-/* Varkana No Region */
+/* Varkana */
 
-.img-noregion-varkana {
+.img-varkana {
   position: relative;
   text-align: center;
 }
 
-.img-noregion-varkana h1 {
+.img-varkana h1 {
   position: absolute;
-  top: 46%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: -1px 0 #75735d, 0 1px #75735d, 1px 0 #75735d, 0 -1px #75735d;
 }
 
-.img-noregion-varkana img {
+.img-varkana h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #75735d, 0 1px #75735d, 1px 0 #75735d, 0 -1px #75735d;
+}
+
+.img-varkana img {
   border-radius: 7px;
-  width: 58%;
+  width: 61%;
+}
+
+/* Jedha */
+
+.img-jedha {
+  position: relative;
+  text-align: center;
+}
+
+.img-jedha h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #dbdbd3, 0 1px #dbdbd3, 1px 0 #dbdbd3, 0 -1px #dbdbd3;
+}
+
+.img-jedha h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #94927f, 0 1px #94927f, 1px 0 #94927f, 0 -1px #94927f;
+}
+
+.img-jedha img {
+  border-radius: 7px;
+  width: 61%;
 }
 
 /* Skako Minor image */
@@ -1008,6 +1048,36 @@ nav img {
   border-radius: 7px;
   width: 60%;
 }
+
+.img-shantipole2 {
+  position: relative;
+  text-align: center;
+}
+
+.img-shantipole2 h1 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #454545, 0 1px #454545, 1px 0 #454545, 0 -1px #454545;
+}
+
+.img-shantipole2 h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #454545;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-shantipole2 img {
+  border-radius: 7px;
+  width: 60%;
+}
+
 
 /* Wellspring of the Force image */
 
@@ -1544,6 +1614,15 @@ footer img {
   width: 170%;
 }
 
+.img-shantipole2 h1 {
+  width: 70%;
+}
+
+.img-shantipole2 img {
+  border-radius: 0px;
+  width: 170%;
+}
+
 /* Wellspring of the Force image */
 
 .img-wellspring h1 {
@@ -1562,8 +1641,8 @@ footer img {
 }
 
 .img-drahgor img {
-    border-radius: 7px;
-    width: 58%;
+    border-radius: 0px;
+    width: 170%;
 }
 
   /* No Region image */
@@ -1583,11 +1662,26 @@ footer img {
       width: 180%;
   }
 
-  /* Varkana No Region */
+  /* Varkana */
 
-.img-noregion-varkana img {
+.img-varkana h1 {
+  width: 70%;
+}
+
+.img-varkana img {
   border-radius: 0px;
-  width: 180%;
+  width: 170%;
+}
+
+/* Jedha */
+
+.img-jedha h1 {
+  width: 70%;
+}
+
+.img-jedha img {
+  border-radius: 0px;
+  width: 170%;
 }
 
   /* Batuu */
@@ -1806,9 +1900,16 @@ footer img {
     width: 135%;
 }
 
- /* Varkana No Region */
+ /* Varkana */
 
- .img-noregion-varkana img {
+ .img-varkana img {
+  border-radius: 0px;
+  width: 135%;
+}
+
+/* Jedha */
+
+.img-jedha img {
   border-radius: 0px;
   width: 135%;
 }
@@ -1858,6 +1959,11 @@ footer img {
 /* Shantipole Image */
 
 .img-shantipole img {
+  border-radius: 0px;
+  width: 137%;
+}
+
+.img-shantipole2 img {
   border-radius: 0px;
   width: 137%;
 }
@@ -2047,13 +2153,19 @@ footer img {
     width: 108%;
 }
 
-/* Varkana No Region */
+/* Varkana */
 
-.img-noregion-varkana img {
+.img-varkana img {
   border-radius: 0px;
   width: 108%;
 }
 
+/* Jedha */
+
+.img-jedha img {
+  border-radius: 0px;
+  width: 108%;
+}
 
 /* Batuu */
 
@@ -2100,6 +2212,11 @@ footer img {
 /* Shantipole Image */
 
 .img-shantipole img {
+  border-radius: 0px;
+  width: 112%;
+}
+
+.img-shantipole2 img {
   border-radius: 0px;
   width: 112%;
 }
@@ -2282,9 +2399,16 @@ footer img {
   width: 80%;
 }
 
-/* Varkana No Region */
+/* Varkana */
 
-.img-noregion-varkana img {
+.img-varkana img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Jedha */
+
+.img-jedha img {
   border-radius: 7px;
   width: 80%;
 }
@@ -2334,6 +2458,11 @@ footer img {
 /* Shantipole Image */
 
 .img-shantipole img {
+  border-radius: 7px;
+  width: 87%;
+}
+
+.img-shantipole2 img {
   border-radius: 7px;
   width: 87%;
 }
