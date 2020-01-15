@@ -793,6 +793,26 @@ nav img {
     width: 58%;
 }
 
+/* Varkana No Region */
+
+.img-noregion-varkana {
+  position: relative;
+  text-align: center;
+}
+
+.img-noregion-varkana h1 {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #75735d, 0 1px #75735d, 1px 0 #75735d, 0 -1px #75735d;
+}
+
+.img-noregion-varkana img {
+  border-radius: 7px;
+  width: 58%;
+}
+
 /* Skako Minor image */
 
 .img-skako {
@@ -982,6 +1002,11 @@ nav img {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.img-shantipole img {
+  border-radius: 7px;
+  width: 60%;
 }
 
 /* Wellspring of the Force image */
@@ -1558,6 +1583,13 @@ footer img {
       width: 180%;
   }
 
+  /* Varkana No Region */
+
+.img-noregion-varkana img {
+  border-radius: 0px;
+  width: 180%;
+}
+
   /* Batuu */
 
 .img-aleen2 img {
@@ -1772,6 +1804,13 @@ footer img {
 .img-noregion2 img {
     border-radius: 0px;
     width: 135%;
+}
+
+ /* Varkana No Region */
+
+ .img-noregion-varkana img {
+  border-radius: 0px;
+  width: 135%;
 }
 
 /* Batuu */
@@ -2008,6 +2047,14 @@ footer img {
     width: 108%;
 }
 
+/* Varkana No Region */
+
+.img-noregion-varkana img {
+  border-radius: 0px;
+  width: 108%;
+}
+
+
 /* Batuu */
 
 .img-aleen2 img {
@@ -2231,6 +2278,13 @@ footer img {
 }
 
 .img-noregion2 img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Varkana No Region */
+
+.img-noregion-varkana img {
   border-radius: 7px;
   width: 80%;
 }
