@@ -859,7 +859,7 @@ transform: translate(-50%, -50%);
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #dbdbd3, 0 1px #dbdbd3, 1px 0 #dbdbd3, 0 -1px #dbdbd3;
+  text-shadow: -1px 0 #aaaaa0, 0 1px #aaaaa0, 1px 0 #aaaaa0, 0 -1px #aaaaa0;
 }
 
 .img-jedha h3 {
@@ -1010,6 +1010,37 @@ transform: translate(-50%, -50%);
 }
 
 .img-kashyyyk img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+/* Felucia Image */
+
+.img-felucia {
+  position: relative;
+  text-align: center;
+}
+
+.img-felucia h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #67a89f, 0 1px #67a89f, 1px 0 #67a89f, 0 -1px #67a89f;
+}
+
+.img-felucia h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #67a89f;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-felucia img {
     border-radius: 7px;
     width: 58%;
 }
@@ -1764,6 +1795,17 @@ footer img {
   width: 180%;
 }
 
+/* Felucia Image */
+
+.img-felucia h1 {
+ width: 70%;
+}
+
+.img-felucia img {
+  border-radius: 0px;
+  width: 180%;
+}
+
 /* Aleen Image */
 
 .img-aleen img {
@@ -1986,6 +2028,13 @@ footer img {
   border-radius: 0px;
   width: 135%;
 }
+
+/* Felucia Image */
+
+ .img-felucia img {
+   border-radius: 0px;
+   width: 135%;
+ }
 
 /* Aleen Image */
 
@@ -2245,6 +2294,13 @@ footer img {
     width: 108%;
 }
 
+/* Felucia Image */
+
+.img-felucia img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 /* Aleen Image */
 
 .img-aleen img {
@@ -2492,6 +2548,13 @@ footer img {
 /* Mandalore Image */
 
 .img-mandalore img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Felucia Image */
+
+.img-felucia img {
   border-radius: 7px;
   width: 80%;
 }
