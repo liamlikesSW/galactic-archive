@@ -1076,6 +1076,36 @@ transform: translate(-50%, -50%);
     width: 58%;
 }
 
+/* Polis Massa Image */
+
+.img-polis {
+  position: relative;
+  text-align: center;
+}
+
+.img-polis h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #15181c, 0 1px #15181c, 1px 0 #15181c, 0 -1px #15181c;
+}
+
+.img-polis h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #15181c, 0 1px #15181c, 1px 0 #15181c, 0 -1px #15181c;
+}
+
+.img-polis img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Shantipole image */
 
 .img-shantipole {
@@ -1196,7 +1226,6 @@ transform: translate(-50%, -50%);
     border-radius: 7px;
     width: 58%;
 }
-
 
 /* Charcuterie Ornament manipulation */
 
@@ -1786,11 +1815,22 @@ footer img {
 
 /* Mandalore Image */
 
-.img-mandalore {
+.img-mandalore h1{
   width: 70%;
 }
 
 .img-mandalore img {
+  border-radius: 0px;
+  width: 180%;
+}
+
+/* Polis Massa Image */
+
+.img-polis h1 {
+  width: 70%;
+}
+
+.img-polis img {
   border-radius: 0px;
   width: 180%;
 }
@@ -2025,6 +2065,13 @@ footer img {
 /* Mandalore Image */
 
 .img-mandalore img {
+  border-radius: 0px;
+  width: 135%;
+}
+
+/* Polis Massa Image */
+
+.img-polis img {
   border-radius: 0px;
   width: 135%;
 }
@@ -2294,6 +2341,13 @@ footer img {
     width: 108%;
 }
 
+/* Polis Massa Image */
+
+.img-polis img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 /* Felucia Image */
 
 .img-felucia img {
@@ -2549,6 +2603,13 @@ footer img {
 
 .img-mandalore img {
   border-radius: 7px;
+  width: 80%;
+}
+
+/* Polis Massa Image */
+
+.img-polis img {
+  border-radius: 0px;
   width: 80%;
 }
 
