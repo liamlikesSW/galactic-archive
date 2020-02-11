@@ -1777,6 +1777,17 @@ footer img {
   width: 170%;
 }
 
+/* Polis Massa */
+
+.img-polis h1 {
+  width: 70%;
+}
+
+.img-polis img {
+  border-radius: 0px;
+  width: 170%;
+}
+
   /* Batuu */
 
 .img-aleen2 img {
@@ -2030,6 +2041,13 @@ footer img {
 /* Jedha */
 
 .img-jedha img {
+  border-radius: 0px;
+  width: 135%;
+}
+
+/* Polis Massa */
+
+.img-polis img {
   border-radius: 0px;
   width: 135%;
 }
@@ -2306,6 +2324,13 @@ footer img {
   width: 108%;
 }
 
+/* Polis Massa */
+
+.img-polis img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 /* Batuu */
 
 .img-aleen2 img {
@@ -2567,6 +2592,13 @@ footer img {
 /* Jedha */
 
 .img-jedha img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Polis Massa */
+
+.img-polis img {
   border-radius: 7px;
   width: 80%;
 }
