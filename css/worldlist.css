@@ -877,6 +877,66 @@ transform: translate(-50%, -50%);
   width: 61%;
 }
 
+/* Savareen Image */
+
+.img-savareen {
+  position: relative;
+  text-align: center;
+}
+
+.img-savareen h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #5b6169, 0 1px #5b6169, 1px 0 #5b6169, 0 -1px #5b6169;
+}
+
+.img-savareen h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #6d747d;
+  -webkit-text-stroke-width: 1.6px; 
+}
+
+.img-savareen img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+/* Raxus Image */
+
+.img-raxus {
+  position: relative;
+  text-align: center;
+}
+
+.img-raxus h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #a37326, 0 1px #a37326, 1px 0 #a37326, 0 -1px #a37326;
+}
+
+.img-raxus h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-raxus img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Skako Minor image */
 
 .img-skako {
@@ -1864,6 +1924,28 @@ footer img {
   width: 180%;
 }
 
+/* Savareen Image */
+
+.img-savareen h1 {
+  width: 70%; 
+}
+
+.img-savareen img {
+    border-radius: 0px;
+    width: 180%;
+}
+
+/* Raxus Image */
+
+.img-raxus h1 {
+  width: 70%;
+}
+
+.img-raxus img {
+  border-radius: 0px;
+  width: 180%;
+}
+
 #comic-img3 img {
   width: 50%;
 }
@@ -2134,6 +2216,20 @@ footer img {
 /* Drahgor III image */
 
 .img-drahgor img {
+  border-radius: 0px;
+  width: 137%;
+}
+
+/* Savareen Image */
+
+.img-savareen img {
+    border-radius: 0px;
+    width: 137%;
+}
+
+/* Raxus Image */
+
+.img-raxus img {
   border-radius: 0px;
   width: 137%;
 }
@@ -2417,6 +2513,20 @@ footer img {
   width: 115%;
 }
 
+/* Savareen Image */
+
+.img-savareen img {
+  border-radius: 0px;
+  width: 108%;
+}
+
+/* Raxus Image */
+
+.img-raxus img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 #comic-img3 img {
   width: 40%;
 }
@@ -2648,6 +2758,20 @@ footer img {
 /* Felucia Image */
 
 .img-felucia img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Savareen Image */
+
+.img-savareen img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Raxus Image */
+
+.img-raxus img {
   border-radius: 7px;
   width: 80%;
 }
