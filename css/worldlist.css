@@ -900,7 +900,7 @@ transform: translate(-50%, -50%);
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: #6d747d;
-  -webkit-text-stroke-width: 1.6px; 
+  -webkit-text-stroke-width: 1px; 
 }
 
 .img-savareen img {
