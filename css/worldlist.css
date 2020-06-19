@@ -1373,6 +1373,15 @@ transform: translate(-50%, -50%);
   margin-top: 16px;
 }
 
+#gcw-underimg2 img{
+  display: block;
+  width: 23px;
+  height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
 #gcw-flex-underimg img{
   display: block;
   width: 23px;
