@@ -622,39 +622,37 @@ nav img {
       width: 58%;
   }
 
-/* Lothal */
+  /* New Coruscant */
 
-.img-lothal {
-  position: relative;
-  text-align: center;
-}
-
-.img-lothal h1 {
-  position: absolute;
-  font-family: brandon-grotesque, sans-serif;
-  font-style: normal;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #31405f;
-  -webkit-text-stroke-width: 1px;
-}
-
-.img-lothal h3 {
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
-  position: absolute;
-  top: 61%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #31405f;
-  -webkit-text-stroke-width: 1px;
-}
-
-.img-lothal img {
+  .img-coruscant3 {
+    position: relative;
+    text-align: center;
+  }
+  
+  .img-coruscant3 h1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1px 0 #383b48, 0 1px #383b48, 1px 0 #383b48, 0 -1px #383b48;
+  }
+  
+  .img-coruscant3 h3 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 800;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-color: #383b48;
+    -webkit-text-stroke-width: 0.5px; 
+  }
+  
+  .img-coruscant3 img {
     border-radius: 7px;
     width: 58%;
-}
+  }
+  
 
 /* Coruscant image */
 
@@ -711,6 +709,40 @@ nav img {
       border-radius: 7px;
       width: 58%;
   }
+
+  /* Lothal */
+
+.img-lothal {
+  position: relative;
+  text-align: center;
+}
+
+.img-lothal h1 {
+  position: absolute;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #31405f;
+  -webkit-text-stroke-width: 1px;
+}
+
+.img-lothal h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #31405f;
+  -webkit-text-stroke-width: 1px;
+}
+
+.img-lothal img {
+    border-radius: 7px;
+    width: 58%;
+}
 
   /* Florrum Image (both black outlines) */
 
@@ -869,7 +901,9 @@ transform: translate(-50%, -50%);
   top: 61%;
   left: 50%;
   transform: translate(-50%, -50%); 
-  text-shadow: -1px 0 #94927f, 0 1px #94927f, 1px 0 #94927f, 0 -1px #94927f;
+  /*text-shadow: -1px 0 #94927f, 0 1px #94927f, 1px 0 #94927f, 0 -1px #94927f;*/
+  -webkit-text-stroke-color: #94927f;
+  -webkit-text-stroke-width: 0.4px; 
 }
 
 .img-jedha img {
@@ -1451,6 +1485,15 @@ transform: translate(-50%, -50%);
   margin-top: 17px;
 }
 
+#ffg-logo-notext img{
+  display: block;
+  width: 24px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+}
+
 .collapsible {
   border: none;
 }
@@ -1744,6 +1787,18 @@ footer img {
       border-radius: 0px;
       width: 170%;
   }
+
+/* New Coruscant */
+
+.img-coruscant3 {
+  width: 70%;
+}
+
+.img-coruscant3 img {
+  border-radius: 0px;
+  width: 170%;
+}
+
 
 /* Skako Minor image */
 
@@ -2093,6 +2148,13 @@ footer img {
       width: 135%;
   }
 
+/* New Coruscant */
+
+.img-coruscant3 img {
+  border-radius: 0px;
+  width: 135%;
+}
+
 /* Skako Minor image */
 
 .img-skako img {
@@ -2380,6 +2442,13 @@ footer img {
       border-radius: 0px;
       width: 108%;
   }
+
+/* New Coruscant */
+
+  .img-coruscant3 img {
+    border-radius: 0px;
+    width: 108%;
+}
 
 /* Skako Minor image */
 
@@ -2671,6 +2740,13 @@ footer img {
       border-radius: 7px;
       width: 80%;
   }
+
+/* New Coruscant */
+
+.img-coruscant3 img {
+  border-radius: 7px;
+  width: 80%;
+}
 
 /* Skako Minor image */
 
