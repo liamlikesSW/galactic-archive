@@ -1270,8 +1270,8 @@ transform: translate(-50%, -50%);
   top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #ffffff;
-  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: #707070;
+  -webkit-text-stroke-width: 0.3px; 
 }
 
 .img-wellspring h3 {
@@ -1281,8 +1281,8 @@ transform: translate(-50%, -50%);
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #ffffff;
-  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: #707070;
+  -webkit-text-stroke-width: 0.3px; 
 }
 
 .img-wellspring img {
