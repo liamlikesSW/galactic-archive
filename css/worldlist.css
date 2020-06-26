@@ -1530,6 +1530,16 @@ transform: translate(-50%, -50%);
   height: 130px;
 }
 
+#comic-img3-smaller img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  width: 13%;
+}
+
 #comic-img3 img {
   display: block;
   margin-left: auto;
@@ -2010,6 +2020,11 @@ footer img {
   width: 180%;
 }
 
+
+#comic-img3-smaller img {
+  width: 41%;
+}
+
 #comic-img3 img {
   width: 50%;
 }
@@ -2303,6 +2318,10 @@ footer img {
 .img-raxus img {
   border-radius: 0px;
   width: 137%;
+}
+
+#comic-img3-smaller img {
+  width: 28%;
 }
 
 #comic-img3 img {
@@ -2605,6 +2624,10 @@ footer img {
   width: 108%;
 }
 
+#comic-img3-smaller img {
+  width: 22%;
+}
+
 #comic-img3 img {
   width: 40%;
 }
@@ -2896,6 +2919,10 @@ footer img {
 .img-drahgor img {
   border-radius: 7px;
   width: 92%;
+}
+
+#comic-img3-smaller img {
+  width: 16%;
 }
 
 #comic-img3 img {
