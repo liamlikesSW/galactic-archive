@@ -1139,6 +1139,37 @@ transform: translate(-50%, -50%);
     width: 58%;
 }
 
+/* Maldo Kreis Image */
+
+.img-maldo-kries {
+  position: relative;
+  text-align: center;
+}
+
+.img-maldo-kries h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #324054, 0 1px #324054, 1px 0 #324054, 0 -1px #324054;
+}
+
+.img-maldo-kries h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #3f4f66;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-maldo-kries img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Mandalore Image */
 
 .img-mandalore {
@@ -1958,6 +1989,17 @@ footer img {
   width: 180%;
 }
 
+/* Maldo Kreis Image */
+
+.img-maldo-kries h1 {
+  width: 70%;
+}
+
+.img-maldo-kries img {
+    border-radius: 0px;
+    width: 180%;
+}
+
 /* Mandalore Image */
 
 .img-mandalore h1{
@@ -2246,6 +2288,13 @@ footer img {
 .img-lothal img {
   border-radius: 0px;
   width: 135%;
+}
+
+/* Maldo Kreis Image */
+
+.img-maldo-kries img {
+    border-radius: 0px;
+    width: 135%;
 }
 
 /* Mandalore Image */
@@ -2552,6 +2601,13 @@ footer img {
     width: 108%;
 }
 
+/* Maldo Kreis Image */
+
+.img-maldo-kries img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 /* Mandalore Image */
 
 .img-mandalore img {
@@ -2845,6 +2901,13 @@ footer img {
 /* Lothal */
 
 .img-lothal img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Maldo Kreis Image */
+
+.img-maldo-kries img {
   border-radius: 7px;
   width: 80%;
 }
