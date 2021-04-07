@@ -1352,6 +1352,37 @@ transform: translate(-50%, -50%);
     width: 58%;
 }
 
+/* Utapau image */
+
+.img-utapau {
+  position: relative;
+  text-align: center;
+}
+
+.img-utapau h1 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -0.45px 0 #edc787, 0 0.45px #edc787, 0.45px 0 #edc787, 0 -0.45px #edc787;
+}
+
+.img-utapau h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #fff6e6;
+  -webkit-text-stroke-width: 0.8px; 
+}
+
+.img-utapau img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Charcuterie Ornament manipulation */
 
 #ornament {
@@ -2062,6 +2093,17 @@ footer img {
   width: 180%;
 }
 
+/* Utapau image */
+
+.img-utapau h1 {
+  width: 70%;
+}
+
+.img-utapau img {
+    border-radius: 0px;
+    width: 180%;
+}
+
 
 #comic-img3-smaller img {
   width: 41%;
@@ -2367,6 +2409,13 @@ footer img {
 .img-raxus img {
   border-radius: 0px;
   width: 137%;
+}
+
+/* Utapau image */
+
+.img-utapau img {
+    border-radius: 0px;
+    width: 137%;
 }
 
 #comic-img3-smaller img {
@@ -2680,6 +2729,13 @@ footer img {
   width: 108%;
 }
 
+/* Utapau image */
+
+.img-utapau img {
+  border-radius: 0px;
+  width: 110%;
+}
+
 #comic-img3-smaller img {
   width: 22%;
 }
@@ -2964,6 +3020,13 @@ footer img {
 .img-shantipole2 img {
   border-radius: 7px;
   width: 87%;
+}
+
+/* Utapau image */
+
+.img-utapau img {
+  border-radius: 0px;
+  width: 80%;
 }
 
 /* Wellspring of the Force image */
