@@ -1383,6 +1383,38 @@ transform: translate(-50%, -50%);
     width: 58%;
 }
 
+/* Kaller Image (dark blue outlines) */
+
+.img-kaller {
+  position: relative;
+  text-align: center;
+}
+
+.img-kaller h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #3c4b52;
+  -webkit-text-stroke-width: 2px; 
+}
+
+.img-kaller h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #3c4b52;
+  -webkit-text-stroke-width: 1.6px; 
+}
+
+.img-kaller img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Charcuterie Ornament manipulation */
 
 #ornament {
@@ -2104,6 +2136,17 @@ footer img {
     width: 180%;
 }
 
+/* Kaller Image */
+
+.img-kaller h1 {
+  width: 70%
+}
+
+.img-kaller img {
+    border-radius: 0px;
+    width: 180%;
+}
+
 
 #comic-img3-smaller img {
   width: 41%;
@@ -2414,6 +2457,13 @@ footer img {
 /* Utapau image */
 
 .img-utapau img {
+    border-radius: 0px;
+    width: 137%;
+}
+
+/* Kaller Image */
+
+.img-kaller img {
     border-radius: 0px;
     width: 137%;
 }
@@ -2736,6 +2786,13 @@ footer img {
   width: 110%;
 }
 
+/* Kaller Image */
+
+.img-kaller img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 #comic-img3-smaller img {
   width: 22%;
 }
@@ -3045,6 +3102,13 @@ footer img {
 .img-drahgor img {
   border-radius: 7px;
   width: 92%;
+}
+
+/* Kaller Image */
+
+.img-kaller img {
+  border-radius: 7px;
+  width: 80%;
 }
 
 #comic-img3-smaller img {
