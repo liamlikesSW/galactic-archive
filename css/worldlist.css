@@ -1301,7 +1301,7 @@ transform: translate(-50%, -50%);
   top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #707070;
+  -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 0.3px; 
 }
 
@@ -1312,11 +1312,42 @@ transform: translate(-50%, -50%);
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #707070;
+  -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 0.3px; 
 }
 
 .img-wellspring img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+/* Castilon Image */
+
+.img-castilon {
+  position: relative;
+  text-align: center;
+}
+
+.img-castilon h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #337cb0, 0 1px #337cb0, 1px 0 #337cb0, 0 -1px #337cb0;
+}
+
+.img-castilon h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #5ca2cc;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-castilon img {
     border-radius: 7px;
     width: 58%;
 }
@@ -1946,6 +1977,17 @@ footer img {
   width: 170%;
 }
 
+/* Castilon Image */
+
+.img-castilon h1 {
+  width: 70%;
+}
+
+.img-castilon img {
+    border-radius: 0px;
+    width: 170%;
+}
+
 /* Drahgor III image */
 
 .img-drahgor h1 {
@@ -2424,13 +2466,16 @@ footer img {
 
 /* Wellspring of the Force image */
 
-.img-wellspring h1 {
-  width: 70%;
-}
-
 .img-wellspring img {
   border-radius: 0px;
   width: 137%;
+}
+
+/* Castilon Image */
+
+.img-castilon img {
+    border-radius: 0px;
+    width: 137%;
 }
 
 /* Drahgor III image */
@@ -2749,13 +2794,16 @@ footer img {
 
 /* Wellspring of the Force image */
 
-.img-wellspring h1 {
-  width: 70%;
-}
-
 .img-wellspring img {
   border-radius: 0px;
   width: 120%;
+}
+
+/* Castilon Image */
+
+.img-castilon img {
+  border-radius: 0px;
+  width: 108%;
 }
 
 /* Drahgor III image */
@@ -3088,13 +3136,16 @@ footer img {
 
 /* Wellspring of the Force image */
 
-.img-wellspring h1 {
-  width: 70%;
-}
-
 .img-wellspring img {
   border-radius: 7px;
   width: 87%;
+}
+
+/* Castilon Image */
+
+.img-castilon img {
+  border-radius: 7px;
+  width: 80%;
 }
 
 /* Drahgor III image */
