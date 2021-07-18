@@ -1148,7 +1148,7 @@ transform: translate(-50%, -50%);
 
 .img-maldo-kries h1 {
   position: absolute;
-  top: 38%;
+  top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: -1px 0 #324054, 0 1px #324054, 1px 0 #324054, 0 -1px #324054;
@@ -1158,7 +1158,7 @@ transform: translate(-50%, -50%);
   font-family: brandon-grotesque, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 62%;
+  top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: #3f4f66;
