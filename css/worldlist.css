@@ -1446,6 +1446,39 @@ transform: translate(-50%, -50%);
     width: 58%;
 }
 
+/* Trask Image */
+
+.img-trask {
+  position: relative;
+  text-align: center;
+}
+
+.img-trask h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /**text-shadow: -0.3px 0 #779099, 0 0.3px #779099, 0.3px 0 #779099, 0 -0.3px #779099;**/
+  -webkit-text-stroke-color: #7e99a3;
+  -webkit-text-stroke-width: 1px;
+}
+
+.img-trask h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #6a8691;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-trask img {
+    border-radius: 7px;
+    width: 58%;
+}
+
 /* Charcuterie Ornament manipulation */
 
 #ornament {
@@ -2189,6 +2222,17 @@ footer img {
     width: 180%;
 }
 
+/* Trask Image */
+
+.img-trask h1 {
+  width: 70%
+}
+
+.img-trask img {
+    border-radius: 0px;
+    width: 180%;
+}
+
 
 #comic-img3-smaller img {
   width: 41%;
@@ -2509,6 +2553,13 @@ footer img {
 /* Kaller Image */
 
 .img-kaller img {
+    border-radius: 0px;
+    width: 137%;
+}
+
+/* Trask Image */
+
+.img-trask img {
     border-radius: 0px;
     width: 137%;
 }
@@ -2841,6 +2892,13 @@ footer img {
   width: 108%;
 }
 
+/* Trask Image */
+
+.img-trask img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 #comic-img3-smaller img {
   width: 22%;
 }
@@ -3158,6 +3216,13 @@ footer img {
 /* Kaller Image */
 
 .img-kaller img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Trask Image */
+
+.img-trask img {
   border-radius: 7px;
   width: 80%;
 }
