@@ -1056,7 +1056,7 @@ transform: translate(-50%, -50%);
 
 .img-aleen2 h1{
   position: absolute;
-  top: 38%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #6E6A60;
@@ -1458,9 +1458,9 @@ transform: translate(-50%, -50%);
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /**text-shadow: -0.3px 0 #779099, 0 0.3px #779099, 0.3px 0 #779099, 0 -0.3px #779099;**/
-  -webkit-text-stroke-color: #7e99a3;
-  -webkit-text-stroke-width: 1px;
+  text-shadow: -0.4px 0 #7e99a3, 0 0.4px #7e99a3, 0.4px 0 #7e99a3, 0 -0.4px #7e99a3; 
+  /**-webkit-text-stroke-color: #7e99a3;
+  -webkit-text-stroke-width: 1px; **/
 }
 
 .img-trask h3 {
