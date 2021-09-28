@@ -1479,6 +1479,71 @@ transform: translate(-50%, -50%);
     width: 58%;
 }
 
+/* Weyland Image */
+
+.img-weyland {
+  position: relative;
+  text-align: center;
+}
+
+.img-weyland h1 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+
+.img-weyland h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #333333;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-weyland img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+/* Bespin Image */
+
+.img-bespin {
+  position: relative;
+  text-align: center;
+}
+
+.img-bespin h1 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ /** text-shadow: -1px 0 #feca76, 0 1px #feca76, 1px 0 #feca76, 0 -1px #feca76;**/
+ -webkit-text-stroke-color: #feca76;
+ -webkit-text-stroke-width: 1px; 
+}
+
+.img-bespin h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #e28f50;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-bespin img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+
 /* Charcuterie Ornament manipulation */
 
 #ornament {
@@ -2138,6 +2203,28 @@ footer img {
     width: 180%;
 }
 
+/* Weyland Image */
+
+.img-weyland h1 {
+  width: 70%;
+}
+
+.img-weyland img {
+    border-radius: 0px;
+    width: 180%;
+}
+
+/* Bespin Image */
+
+.img-bespin h1 {
+ width: 70%;
+}
+
+.img-bespin img {
+    border-radius: 0px;
+    width: 180%;
+}
+
 /* Mandalore Image */
 
 .img-mandalore h1{
@@ -2467,6 +2554,20 @@ footer img {
     border-radius: 0px;
     width: 135%;
 }
+
+/* Weyland Image */
+
+.img-weyland img {
+    border-radius: 0px;
+    width: 135%;
+}
+
+/* Bespin Image */
+
+ .img-bespin img {
+     border-radius: 0px;
+     width: 135%;
+ }
 
 /* Mandalore Image */
 
@@ -2803,6 +2904,20 @@ footer img {
   width: 108%;
 }
 
+/* Weyland Image */
+
+.img-weyland img {
+  border-radius: 0px;
+  width: 108%;
+}
+
+/* Bespin Image */
+
+.img-bespin img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 /* Mandalore Image */
 
 .img-mandalore img {
@@ -3127,6 +3242,20 @@ footer img {
 /* Maldo Kreis Image */
 
 .img-maldo-kries img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Weyland Image */
+
+.img-weyland img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Bespin Image */
+
+.img-bespin img {
   border-radius: 7px;
   width: 80%;
 }
