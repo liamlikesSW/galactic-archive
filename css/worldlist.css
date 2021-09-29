@@ -1543,6 +1543,38 @@ transform: translate(-50%, -50%);
     width: 58%;
 }
 
+/* Daro Image */
+
+.img-daro {
+  position: relative;
+  text-align: center;
+}
+
+.img-daro h1 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 #405245, 0 1px #405245, 1px 0 #405245, 0 -1px #405245;
+}
+
+.img-daro h3 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #405245;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-daro img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+
 
 /* Charcuterie Ornament manipulation */
 
@@ -2320,6 +2352,17 @@ footer img {
     width: 180%;
 }
 
+/* Daro Image */
+
+.img-daro h1 {
+  width: 70%;
+}
+
+.img-daro img {
+    border-radius: 0px;
+    width: 170%;
+}
+
 
 #comic-img3-smaller img {
   width: 41%;
@@ -2663,6 +2706,13 @@ footer img {
 .img-trask img {
     border-radius: 0px;
     width: 137%;
+}
+
+/* Daro Image */
+
+.img-daro img {
+    border-radius: 0px;
+    width: 135%;
 }
 
 #comic-img3-smaller img {
@@ -3014,6 +3064,13 @@ footer img {
   width: 108%;
 }
 
+/* Daro Image */
+
+.img-daro img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 #comic-img3-smaller img {
   width: 22%;
 }
@@ -3352,6 +3409,13 @@ footer img {
 /* Trask Image */
 
 .img-trask img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Daro Image */
+
+.img-daro img {
   border-radius: 7px;
   width: 80%;
 }
