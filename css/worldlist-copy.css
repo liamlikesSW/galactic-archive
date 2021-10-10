@@ -126,7 +126,7 @@ nav img {
 }
 
 .full-key > h1 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-size: 250%;
   font-weight: 1000;
   text-align: center;
@@ -179,7 +179,7 @@ nav img {
 }
 
 #key-note > h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   margin-bottom: 0px;
 }
 
@@ -247,7 +247,7 @@ nav img {
 }
 
 .list-worlds h1 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 600;
     font-size: 45px;
     margin: 3px;
@@ -255,7 +255,7 @@ nav img {
 }
 
 .list-worlds h3 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 770;
     font-size: 17px;
     margin: 0px;
@@ -489,7 +489,7 @@ nav img {
 }
 
 .img-alderaan h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 63%;
@@ -517,7 +517,7 @@ nav img {
   }
   
   .img-anaxes h3 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 61%;
@@ -539,7 +539,7 @@ nav img {
   
   .img-corellia h1 {
     position: absolute;
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-style: normal;
     top: 38%;
     left: 50%;
@@ -548,7 +548,7 @@ nav img {
   }
   
   .img-corellia h3 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 60%;
@@ -568,7 +568,7 @@ nav img {
   
   .img-corellia2 h1 {
     position: absolute;
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-style: normal;
     top: 38%;
     left: 50%;
@@ -576,7 +576,7 @@ nav img {
   }
   
   .img-corellia2 h3 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 59%;
@@ -601,7 +601,7 @@ nav img {
   
   .img-corellia3 h1 {
     position: absolute;
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-style: normal;
     top: 38%;
     left: 50%;
@@ -609,7 +609,7 @@ nav img {
   }
   
   .img-corellia3 h3 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 61%;
@@ -638,7 +638,7 @@ nav img {
   }
   
   .img-coruscant3 h3 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 64%;
@@ -669,7 +669,7 @@ nav img {
   }
   
   .img-coruscant h3 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 64%;
@@ -695,7 +695,7 @@ nav img {
   }
   
   .img-coruscant2 h3 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 64%;
@@ -719,7 +719,7 @@ nav img {
 
 .img-lothal h1 {
   position: absolute;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-style: normal;
   top: 38%;
   left: 50%;
@@ -729,7 +729,7 @@ nav img {
 }
 
 .img-lothal h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 61%;
@@ -761,7 +761,7 @@ nav img {
   }
   
   .img-florrum h3 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 61%;
@@ -865,7 +865,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-varkana h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 61%;
@@ -895,7 +895,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-jedha h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 61%;
@@ -927,7 +927,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-savareen h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 59%;
@@ -958,7 +958,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-raxus h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 61%;
@@ -994,7 +994,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-skako h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 64%;
@@ -1032,7 +1032,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-aleen h3{
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 64%;
@@ -1064,7 +1064,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-aleen2 h3{
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 900;
   position: absolute;
   top: 64%;
@@ -1095,7 +1095,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-kashyyyk h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 66%;
@@ -1124,7 +1124,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-felucia h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 62%;
@@ -1155,7 +1155,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-maldo-kries h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 64%;
@@ -1186,7 +1186,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-mandalore h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 62%;
@@ -1217,7 +1217,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-polis h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 62%;
@@ -1246,7 +1246,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-shantipole h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 65%;
@@ -1273,7 +1273,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-shantipole2 h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 65%;
@@ -1306,7 +1306,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-wellspring h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 65%;
@@ -1337,7 +1337,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-castilon h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 59%;
@@ -1368,7 +1368,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-drahgor h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 64%;
@@ -1399,7 +1399,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-utapau h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 64%;
@@ -1431,7 +1431,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-kaller h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 61%;
@@ -1464,7 +1464,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-trask h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 59%;
@@ -1495,7 +1495,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-weyland h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 64%;
@@ -1528,7 +1528,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-bespin h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 63%;
@@ -1559,7 +1559,7 @@ transform: translate(-50%, -50%);
 }
 
 .img-daro h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 62%;
