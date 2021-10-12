@@ -125,12 +125,21 @@ nav img {
   margin-bottom: 0px;
 }
 
+
+
 .full-key > h1 {
-  font-family: proxima nova, sans-serif;
-  font-size: 250%;
-  font-weight: 1000;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
   text-align: center;
   margin-bottom: 8px;
+}
+
+.extrabold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
 }
 
 .flex-key {
@@ -180,7 +189,16 @@ nav img {
 
 #key-note > h3 {
   font-family: proxima nova, sans-serif;
+  font-weight: 500;
   margin-bottom: 0px;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.extrabold {
+  font-weight: 800;
 }
 
 /* Img Before List */
@@ -246,19 +264,21 @@ nav img {
   margin-bottom: 110px;
 }
 
-.list-worlds h1 {
-    font-family: proxima nova, sans-serif;
-    font-weight: 600;
-    font-size: 45px;
+.list-worlds h1 { /**/ /**/ /**/ /**/ /**/ /*THE BIG H1*/ /**/ /**/ /**/ /**/ /**/ /**/ 
+    font-family: proxima-nova, sans-serif;
+    font-weight: 900; /*600*/
+    font-size: 38px;
     margin: 3px;
     text-align: center;
+    letter-spacing: 0.5px;
 }
 
 .list-worlds h3 {
-    font-family: proxima nova, sans-serif;
-    font-weight: 770;
-    font-size: 17px;
-    margin: 0px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700; /*770*/
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 7px;
     text-align: center;
 }
 
@@ -278,6 +298,7 @@ nav img {
 
 .world-paragraph p {
     text-align: justify;
+    margin-top: 5px;
     margin-bottom: 0px;
 }
 
@@ -489,7 +510,6 @@ nav img {
 }
 
 .img-alderaan h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 63%;
@@ -511,16 +531,15 @@ nav img {
 
 .img-anaxes h1 {
     position: absolute;
-    top: 38%;
+    top: 39%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   
   .img-anaxes h3 {
-    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
-    top: 61%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -539,16 +558,15 @@ nav img {
   
   .img-corellia h1 {
     position: absolute;
-    font-family: proxima nova, sans-serif;
     font-style: normal;
-    top: 38%;
+    top: 39%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+    -webkit-text-stroke-color: #383b48;
+    -webkit-text-stroke-width: 1.5px;
   }
   
   .img-corellia h3 {
-    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 60%;
@@ -568,18 +586,16 @@ nav img {
   
   .img-corellia2 h1 {
     position: absolute;
-    font-family: proxima nova, sans-serif;
     font-style: normal;
-    top: 38%;
+    top: 39%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   
   .img-corellia2 h3 {
-    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
-    top: 59%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -601,18 +617,17 @@ nav img {
   
   .img-corellia3 h1 {
     position: absolute;
-    font-family: proxima nova, sans-serif;
     font-style: normal;
-    top: 38%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   
-  .img-corellia3 h3 {
-    font-family: proxima nova, sans-serif;
+  .img-corellia3 h3 { /* Arvala looks worse with top: 56, 
+                        but Aeos looks better. Rn we do 57 for Celsor3*/ 
     font-weight: 800;
     position: absolute;
-    top: 61%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -638,7 +653,6 @@ nav img {
   }
   
   .img-coruscant3 h3 {
-    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 64%;
@@ -663,16 +677,15 @@ nav img {
   
   .img-coruscant h1 {
     position: absolute;
-    top: 36%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   
   .img-coruscant h3 {
-    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
-    top: 64%;
+    top: 61%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -695,7 +708,6 @@ nav img {
   }
   
   .img-coruscant2 h3 {
-    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
     top: 64%;
@@ -719,7 +731,6 @@ nav img {
 
 .img-lothal h1 {
   position: absolute;
-  font-family: proxima nova, sans-serif;
   font-style: normal;
   top: 38%;
   left: 50%;
@@ -729,7 +740,6 @@ nav img {
 }
 
 .img-lothal h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 61%;
@@ -753,21 +763,20 @@ nav img {
   
   .img-florrum h1 {
     position: absolute;
-    top: 38%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-text-stroke-color: #2e2e2e;
+    -webkit-text-stroke-color: #333333;
     -webkit-text-stroke-width: 2px; 
   }
   
   .img-florrum h3 {
-    font-family: proxima nova, sans-serif;
     font-weight: 800;
     position: absolute;
-    top: 61%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-text-stroke-color: #2e2e2e;
+    -webkit-text-stroke-color: #333333;
     -webkit-text-stroke-width: 1.6px; 
   }
   
@@ -858,20 +867,23 @@ transform: translate(-50%, -50%);
 
 .img-varkana h1 {
   position: absolute;
-  top: 38%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #75735d, 0 1px #75735d, 1px 0 #75735d, 0 -1px #75735d;
+  -webkit-text-stroke-color: #75735d;
+  -webkit-text-stroke-width: 0.4px;
+  
 }
 
 .img-varkana h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 61%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #75735d, 0 1px #75735d, 1px 0 #75735d, 0 -1px #75735d;
+  -webkit-text-stroke-color: #75735d;
+  -webkit-text-stroke-width: 0.4px;
+
 }
 
 .img-varkana img {
@@ -891,17 +903,16 @@ transform: translate(-50%, -50%);
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #aaaaa0, 0 1px #aaaaa0, 1px 0 #aaaaa0, 0 -1px #aaaaa0;
+  -webkit-text-stroke-color: #aaaaa0;
+  -webkit-text-stroke-width: 0.4px;
 }
 
 .img-jedha h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 61%;
   left: 50%;
   transform: translate(-50%, -50%); 
-  /*text-shadow: -1px 0 #94927f, 0 1px #94927f, 1px 0 #94927f, 0 -1px #94927f;*/
   -webkit-text-stroke-color: #94927f;
   -webkit-text-stroke-width: 0.4px; 
 }
@@ -923,11 +934,11 @@ transform: translate(-50%, -50%);
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #5b6169, 0 1px #5b6169, 1px 0 #5b6169, 0 -1px #5b6169;
+  -webkit-text-stroke-color: #5b6169;
+  -webkit-text-stroke-width: 1px; 
 }
 
 .img-savareen h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 59%;
@@ -951,17 +962,18 @@ transform: translate(-50%, -50%);
 
 .img-raxus h1 {
   position: absolute;
-  top: 38%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #a37326, 0 1px #a37326, 1px 0 #a37326, 0 -1px #a37326;
+  /*text-shadow: -1px 0 #a37326, 0 1px #a37326, 1px 0 #a37326, 0 -1px #a37326;
+  -webkit-text-stroke-color:  #a37326;
+  -webkit-text-stroke-width: 1px; */
 }
 
 .img-raxus h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 61%;
+  top: 59%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -994,7 +1006,6 @@ transform: translate(-50%, -50%);
 }
 
 .img-skako h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 64%;
@@ -1028,11 +1039,11 @@ transform: translate(-50%, -50%);
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FCFCDC;
-  text-shadow: -1px 0 #7d7850, 0 1px #7d7850, 1px 0 #7d7850, 0 -1px #7d7850;
+  -webkit-text-stroke-color: #7d7850;
+  -webkit-text-stroke-width: 1px;
 }
 
 .img-aleen h3{
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 64%;
@@ -1056,23 +1067,24 @@ transform: translate(-50%, -50%);
 
 .img-aleen2 h1{
   position: absolute;
-  top: 37%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
   color: #6E6A60;
-  text-shadow: -1px 0 #2e2a24, 0 1px #2e2a24, 1px 0 #2e2a24, 0 -1px #2e2a24;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #6E6A60;
+  -webkit-text-stroke-width: 1px; 
 }
 
 .img-aleen2 h3{
-  font-family: proxima nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: 900;
   position: absolute;
-  top: 64%;
+  top: 59%;
   left: 50%;
-  transform: translate(-50%, -50%);
   color: #57534a;
-  -webkit-text-stroke-width: 1px; 
-  -webkit-text-stroke-color: #2e2a24; 
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #57534a;
+  -webkit-text-stroke-width: 0px; 
 }
 
 .img-aleen2 img {
@@ -1089,16 +1101,15 @@ transform: translate(-50%, -50%);
 
 .img-kashyyyk h1 {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .img-kashyyyk h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 66%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1124,7 +1135,6 @@ transform: translate(-50%, -50%);
 }
 
 .img-felucia h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 62%;
@@ -1148,17 +1158,18 @@ transform: translate(-50%, -50%);
 
 .img-maldo-kries h1 {
   position: absolute;
-  top: 36%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #324054, 0 1px #324054, 1px 0 #324054, 0 -1px #324054;
+  /*text-shadow: -1px 0 #324054, 0 1px #324054, 1px 0 #324054, 0 -1px #324054;*/
+  -webkit-text-stroke-color: #324054;
+  -webkit-text-stroke-width: 1px; 
 }
 
 .img-maldo-kries h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 64%;
+  top: 59%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: #3f4f66;
@@ -1182,11 +1193,12 @@ transform: translate(-50%, -50%);
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #454545, 0 1px #454545, 1px 0 #454545, 0 -1px #454545;
+  /*text-shadow: -1px 0 #454545, 0 1px #454545, 1px 0 #454545, 0 -1px #454545;*/
+  -webkit-text-stroke-color: #454545;
+  -webkit-text-stroke-width: 1px; 
 }
 
 .img-mandalore h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 62%;
@@ -1217,7 +1229,6 @@ transform: translate(-50%, -50%);
 }
 
 .img-polis h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 62%;
@@ -1240,16 +1251,15 @@ transform: translate(-50%, -50%);
 
 .img-shantipole h1 {
   position: absolute;
-  top: 36%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .img-shantipole h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1266,17 +1276,17 @@ transform: translate(-50%, -50%);
 
 .img-shantipole2 h1 {
   position: absolute;
-  top: 36%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #454545, 0 1px #454545, 1px 0 #454545, 0 -1px #454545;
+  -webkit-text-stroke-color: #454545;
+  -webkit-text-stroke-width: 1px;
 }
 
 .img-shantipole2 h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: #454545;
@@ -1306,7 +1316,6 @@ transform: translate(-50%, -50%);
 }
 
 .img-wellspring h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 65%;
@@ -1333,11 +1342,11 @@ transform: translate(-50%, -50%);
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #337cb0, 0 1px #337cb0, 1px 0 #337cb0, 0 -1px #337cb0;
+  -webkit-text-stroke-color: #337cb0;
+  -webkit-text-stroke-width: 1px;
 }
 
 .img-castilon h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 59%;
@@ -1361,17 +1370,17 @@ transform: translate(-50%, -50%);
 
 .img-drahgor h1 {
   position: absolute;
-  top: 36%;
+  top: 39%;
   left: 50%;
   transform: translate(-50%, -50%); 
-  text-shadow: -1px 0 #42391b, 0 1px #42391b, 1px 0 #42391b, 0 -1px #42391b;
+  -webkit-text-stroke-color: #4F4422;
+  -webkit-text-stroke-width: 1px; 
 }
 
 .img-drahgor h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 64%;
+  top: 58%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: #5C4F29;
@@ -1392,17 +1401,17 @@ transform: translate(-50%, -50%);
 
 .img-utapau h1 {
   position: absolute;
-  top: 36%;
+  top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -0.45px 0 #edc787, 0 0.45px #edc787, 0.45px 0 #edc787, 0 -0.45px #edc787;
+  -webkit-text-stroke-color: #fff6e6;
+  -webkit-text-stroke-width: 0.8px;
 }
 
 .img-utapau h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 64%;
+  top: 61%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: #fff6e6;
@@ -1423,7 +1432,7 @@ transform: translate(-50%, -50%);
 
 .img-kaller h1 {
   position: absolute;
-  top: 38%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: #3c4b52;
@@ -1431,7 +1440,6 @@ transform: translate(-50%, -50%);
 }
 
 .img-kaller h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 61%;
@@ -1455,16 +1463,14 @@ transform: translate(-50%, -50%);
 
 .img-trask h1 {
   position: absolute;
-  top: 38%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -0.4px 0 #7e99a3, 0 0.4px #7e99a3, 0.4px 0 #7e99a3, 0 -0.4px #7e99a3; 
-  /**-webkit-text-stroke-color: #7e99a3;
-  -webkit-text-stroke-width: 1px; **/
+  -webkit-text-stroke-color: #7e99a3;
+  -webkit-text-stroke-width: 0px; 
 }
 
 .img-trask h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
   top: 59%;
@@ -1488,20 +1494,20 @@ transform: translate(-50%, -50%);
 
 .img-weyland h1 {
   position: absolute;
-  top: 36%;
+  top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px; 
 }
 
 .img-weyland h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 64%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #333333;
+  -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px; 
 }
 
@@ -1519,19 +1525,17 @@ transform: translate(-50%, -50%);
 
 .img-bespin h1 {
   position: absolute;
-  top: 36%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
- /** text-shadow: -1px 0 #feca76, 0 1px #feca76, 1px 0 #feca76, 0 -1px #feca76;**/
  -webkit-text-stroke-color: #feca76;
  -webkit-text-stroke-width: 1px; 
 }
 
 .img-bespin h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 63%;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: #e28f50;
@@ -1552,17 +1556,17 @@ transform: translate(-50%, -50%);
 
 .img-daro h1 {
   position: absolute;
-  top: 38%;
+  top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #3c4a40, 0 1px #3c4a40, 1px 0 #3c4a40, 0 -1px #3c4a40;
+  -webkit-text-stroke-color: #3c4a40;
+  -webkit-text-stroke-width: 1px;
 }
 
 .img-daro h3 {
-  font-family: proxima nova, sans-serif;
   font-weight: 800;
   position: absolute;
-  top: 62%;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: #3c4a40;
@@ -1681,7 +1685,6 @@ transform: translate(-50%, -50%);
 }
 
 #gcw-flex-undertext img {
-
   display: block;
   width: 23px;
   height: 23px;
@@ -1767,7 +1770,7 @@ transform: translate(-50%, -50%);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 22px;
+  margin-top: 18px;
   margin-bottom: 50px;
   border-radius: 5px;
   width: 130px;
@@ -1778,7 +1781,7 @@ transform: translate(-50%, -50%);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 22px;
+  margin-top: 18px;
   margin-bottom: 17px;
   border-radius: 5px;
   width: 140px;
@@ -1789,7 +1792,7 @@ transform: translate(-50%, -50%);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 22px;
+  margin-top: 16px;
   margin-bottom: 3px;
   border-radius: 5px;
   width: 13%;
@@ -1799,7 +1802,7 @@ transform: translate(-50%, -50%);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 22px;
+  margin-top: 17px;
   margin-bottom: 3px;
   border-radius: 5px;
   width: 20%;
@@ -1809,7 +1812,7 @@ transform: translate(-50%, -50%);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 12px;
+  margin-top: 16px;
   margin-bottom: 50px;
   border-radius: 5px;
   width: 140px;
@@ -1820,7 +1823,7 @@ transform: translate(-50%, -50%);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 22px;
+  margin-top: 18px;
   margin-bottom: 10px;
   border-radius: 5px;
   width: 130px;
@@ -1831,7 +1834,7 @@ transform: translate(-50%, -50%);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 12px;
+  margin-top: 16px;
   margin-bottom: 10px;
   border-radius: 5px;
   width: 130px;
@@ -1853,6 +1856,7 @@ transform: translate(-50%, -50%);
 }
 
 #continue-to h3 > a {
+  font-family: brandon-grotesque, sans-serif;
   font-weight: 800;
   font-size: 25px;
   position: absolute;
