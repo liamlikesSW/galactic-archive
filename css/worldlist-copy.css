@@ -80,8 +80,8 @@ nav img {
 /* Region Paragraphs */
 
 .flex-introparas {
-  font-family: futura-pt, sans-serif;
-  font-weight: 200;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   margin-left: 530px;
@@ -148,8 +148,8 @@ nav img {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  font-family: futura-pt, sans-serif;
-  font-weight: 300;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 400;
   text-align: justify;
   margin-left: 460px;
   margin-right: 460px;
@@ -191,6 +191,10 @@ nav img {
   font-family: proxima nova, sans-serif;
   font-weight: 500;
   margin-bottom: 0px;
+}
+
+.lighter {
+  font-weight: 300;
 }
 
 .medium {
@@ -287,11 +291,10 @@ nav img {
 .world-paragraph {
     display: flex;
     justify-content: center;
-    font-family: futura-pt, sans-serif;
-    font-weight: 300;
+    font-family: source-sans-pro, sans-serif;
     font-style: normal;
-    font-weight: 359;
-    font-size: 15px;
+    font-weight: 400; /* futura-pt at 359*/
+    font-size: 14px; /*15px*/
     margin: 0px;
     margin-top: 3.5px;
 }
@@ -410,8 +413,8 @@ nav img {
 #source p {
   margin-top: 8px;
   font-size: 10px;
-  font-family: futura-pt, sans-serif;
-  font-weight: 150;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 400; /*150*/
 }
 
 #source a {
@@ -646,7 +649,7 @@ nav img {
   
   .img-coruscant3 h1 {
     position: absolute;
-    top: 38%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: -1px 0 #383b48, 0 1px #383b48, 1px 0 #383b48, 0 -1px #383b48;
@@ -655,7 +658,7 @@ nav img {
   .img-coruscant3 h3 {
     font-weight: 800;
     position: absolute;
-    top: 64%;
+    top: 61%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke-color: #383b48;
@@ -992,23 +995,17 @@ transform: translate(-50%, -50%);
 
 .img-skako h1 {
   position: absolute;
-  top: 38%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FCFCDC;
-  /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
-  0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-  0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
-  0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-  0 5px 5px rgba(0,0,0,.25), 0 5px 5px rgba(0,0,0,.2), 
-  0 5px 5px rgba(0,0,0,.15);*/
   text-shadow: -1px 0 #bfc48b, 0 1px #bfc48b, 1px 0 #bfc48b, 0 -1px #bfc48b;
 }
 
 .img-skako h3 {
   font-weight: 800;
   position: absolute;
-  top: 64%;
+  top: 61%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FCFCDC;
@@ -1131,7 +1128,9 @@ transform: translate(-50%, -50%);
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: -1px 0 #67a89f, 0 1px #67a89f, 1px 0 #67a89f, 0 -1px #67a89f;
+  /*text-shadow: -1px 0 #67a89f, 0 1px #67a89f, 1px 0 #67a89f, 0 -1px #67a89f;*/
+  -webkit-text-stroke-color: #67a89f;
+  -webkit-text-stroke-width: 1px; 
 }
 
 .img-felucia h3 {
