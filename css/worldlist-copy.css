@@ -80,8 +80,8 @@ nav img {
 /* Region Paragraphs */
 
 .flex-introparas {
-  font-family: source-sans-pro, sans-serif;
-  font-weight: 400;
+  font-family: frank-new, sans-serif;
+  font-weight: 300;
   display: flex;
   justify-content: center;
   margin-left: 530px;
@@ -1475,7 +1475,7 @@ transform: translate(-50%, -50%);
   top: 59%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: #6a8691;
+  -webkit-text-stroke-color: #718e99;
   -webkit-text-stroke-width: 1px; 
 }
 
@@ -1496,7 +1496,7 @@ transform: translate(-50%, -50%);
   top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: #1f261e;
   -webkit-text-stroke-width: 1px; 
 }
 
@@ -1506,7 +1506,7 @@ transform: translate(-50%, -50%);
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: #1f261e;
   -webkit-text-stroke-width: 1px; 
 }
 
@@ -1573,6 +1573,37 @@ transform: translate(-50%, -50%);
 }
 
 .img-daro img {
+    border-radius: 7px;
+    width: 58%;
+}
+
+/* Vespaara Image */
+
+.img-vespaara {
+  position: relative;
+  text-align: center;
+}
+
+.img-vespaara h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #412032;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-vespaara h3 {
+  font-weight: 800;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: #412032;
+  -webkit-text-stroke-width: 1px; 
+}
+
+.img-vespaara img {
     border-radius: 7px;
     width: 58%;
 }
@@ -2366,6 +2397,17 @@ footer img {
     width: 170%;
 }
 
+/* Vespaara Image */
+
+.img-vespaara h1 {
+  width: 70%;
+}
+
+.img-vespaara img {
+    border-radius: 0px;
+    width: 170%;
+}
+
 
 #comic-img3-smaller img {
   width: 41%;
@@ -2714,6 +2756,13 @@ footer img {
 /* Daro Image */
 
 .img-daro img {
+    border-radius: 0px;
+    width: 135%;
+}
+
+/* Vespaara Image */
+
+.img-vespaara img {
     border-radius: 0px;
     width: 135%;
 }
@@ -3074,6 +3123,13 @@ footer img {
   width: 108%;
 }
 
+/* Vespaara Image */
+
+.img-vespaara img {
+  border-radius: 0px;
+  width: 108%;
+}
+
 #comic-img3-smaller img {
   width: 22%;
 }
@@ -3419,6 +3475,13 @@ footer img {
 /* Daro Image */
 
 .img-daro img {
+  border-radius: 7px;
+  width: 80%;
+}
+
+/* Vespaara Image */
+
+.img-vespaara img {
   border-radius: 7px;
   width: 80%;
 }
