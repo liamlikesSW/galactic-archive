@@ -837,7 +837,7 @@ text-align: center;
 
 .img-noregion-bold h1 {
 position: absolute;
-top: 44%;
+top: 47%;
 left: 50%;
 transform: translate(-50%, -50%);
 -webkit-text-stroke-color: #403F3F;
@@ -851,7 +851,7 @@ transform: translate(-50%, -50%);
 
 .img-noregion2 h1 {
   position: absolute;
-  top: 46%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1307,7 +1307,7 @@ transform: translate(-50%, -50%);
 
 .img-wellspring h1 {
   position: absolute;
-  top: 36%;
+  top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: white;
@@ -1317,7 +1317,7 @@ transform: translate(-50%, -50%);
 .img-wellspring h3 {
   font-weight: 800;
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke-color: white;
@@ -1327,6 +1327,10 @@ transform: translate(-50%, -50%);
 .img-wellspring img {
     border-radius: 7px;
     width: 58%;
+}
+
+.get-smaller {
+  font-size: 80%;
 }
 
 /* Castilon Image */
@@ -3442,6 +3446,10 @@ footer img {
 .img-wellspring img {
   border-radius: 7px;
   width: 87%;
+}
+
+.img-wellspring h1 {
+  margin: 0%;
 }
 
 /* Castilon Image */
